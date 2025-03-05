@@ -1,43 +1,37 @@
-# Chirpy Starter
+# cgoldberg.github.io
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+This repo contains the code for [Corey Goldberg's personal blog][blog-home].  The blog is a website hosted on [GitHub Pages][gh-pages].
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+It is made with [Jekyll][jekyll] static site generator, and uses the [Chirpy theme][chirpy].
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+This repo started as a fork of [Chirpy Starter][chirpy-starter].
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
-
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
-
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+----
 
 ## Usage
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
-## Contributing
+To setup a development environment and run locally:
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+1. Clone this repository to your local machine
+2. Follow the [Jekyll installation guide][jekyll-install] to install Jekyll
+3. Run `bundle` in the root of the repository to install the dependencies
+4. Run `bundle exec jekyll s` to start the Jekyll server
+
+The local server will be available at [http://127.0.0.1:4000][local-server].
 
 ## License
 
-This work is published under [MIT][mit] License.
+This work is published under the [MIT License][mit-license].
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+----
+
+[blog-home]: https://cgoldberg.github.io
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy
+[chirpy-starter]: https://github.com/cotes2020/chirpy-starter
+[gh-pages]: https://pages.github.com
+[jekyll]: https://jekyllrb.com
+[jekyll-install]: https://jekyllrb.com/docs/installation
+[local-server]: http://127.0.0.1:4000
+[mit-license]: https://github.com/cgoldberg/cgoldberg.github.io/blob/main/LICENSE
