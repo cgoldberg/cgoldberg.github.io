@@ -1,9 +1,7 @@
 # cgoldberg.github.io
 
-This repo contains the code for Corey Goldberg's personal blog,
-located at: [https://cgoldberg.github.io][blog-home].
-
-The blog is a website hosted on [GitHub Pages][gh-pages], made with
+This repo contains the code for Corey Goldberg's personal blog website,
+located at: [https://cgoldberg.github.io][blog-home]. It is hosted on [GitHub Pages][gh-pages], made with
 [Jekyll][jekyll] static site generator, using the [Chirpy theme][chirpy].
 
 ----
@@ -19,7 +17,7 @@ To setup a development environment and run locally:
 3. Run `bundle` in the root of the repository to install the dependencies
 4. Run `bundle exec jekyll s` in the root of the repository to start the Jekyll server
 
-The local server will be available at: [http://127.0.0.1:4000][local-server].
+The local server will be available at: http://127.0.0.1:4000
 
 ## Deployment
 
@@ -39,5 +37,4 @@ This work is published under the [MIT License][mit-license].
 [gh-workflow]: https://github.com/cgoldberg/cgoldberg.github.io/actions
 [jekyll]: https://jekyllrb.com
 [jekyll-install]: https://jekyllrb.com/docs/installation
-[local-server]: http://127.0.0.1:4000
 [mit-license]: https://github.com/cgoldberg/cgoldberg.github.io/blob/main/LICENSE
