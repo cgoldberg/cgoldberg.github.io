@@ -1,7 +1,9 @@
 # cgoldberg.github.io
 
 This repo contains the code for Corey Goldberg's personal blog website,
-located at: [https://cgoldberg.github.io][blog-home]. It is hosted on [GitHub Pages][gh-pages], made with
+located at: [https://cgoldberg.github.io][blog-home].
+
+It's hosted on [GitHub Pages][gh-pages], made with
 [Jekyll][jekyll] static site generator, using the [Chirpy theme][chirpy].
 
 ----
