@@ -59,9 +59,9 @@ webmaster_verifications:
 # end of `jekyll-seo-tag` settings
 
 # web analytics settings
-#analytics:
-#  google:
-#    id: # fill in your Google Analytics ID
+analytics:
+  google:
+    id: G-VDZPG2HGL4
 #  goatcounter:
 #    id: # fill in your GoatCounter ID
 #  umami:
