@@ -30,20 +30,20 @@ git push origin --tags
 git fetch
 ```
 (setting a tag with a version number lets users know which commit coressponds with the release)
-- Build the package:
+- Create a new virtual environment and install the dependencies:
 ```
 python3 -m venv
 source venv/bin/activate
-pip install -U build
+pip install --upgrade build pip twine
+```
+- Build the package:
+```
 python -m build
 ```
 (this will build a Source Distribution (sdist) and Binary Distributioun (wheel) in the `dist` directory)
 - Generate an [API token][api-token] on PyPI (create an account first if needed)
 - Upload the new package to PyPI:
 ```
-python3 -m venv
-source venv/bin/activate
-pip install -U twine
 python -m twine check dist/*
 python -m twine upload --repository pypi dist/*
 ```
