@@ -1,6 +1,6 @@
 ---
 title: First Post!
-description: Welcome to the new blog.
+description: Welcome to the new blog
 date: 2025-03-09
 tags: [blogging]
 ---
