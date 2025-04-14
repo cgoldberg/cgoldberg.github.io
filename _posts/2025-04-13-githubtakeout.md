@@ -14,6 +14,7 @@ Install from [PyPI][pypi]:
 pip install githubtakeout
 ```
 
-For more informationm, visit the GitHub page: https://github.com/cgoldberg/githubtakeout
+For more informationm, visit the GitHub page: [https://github.com/cgoldberg/githubtakeout][github]
 
 [pypi]: https://pypi.org/project/githubtakeout
+[github]:  https://github.com/cgoldberg/githubtakeout
