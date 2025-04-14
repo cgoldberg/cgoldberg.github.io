@@ -18,4 +18,4 @@ pip install -U xvfbwrapper
 For more informationm, visit the [GitHub][github] repo.
 
 [github]: https://github.com/cgoldberg/xvfbwrapper
-[pypi]: https://pypi.org/project/xvfbwrapper/0.2.10/
+[pypi]: https://pypi.org/project/xvfbwrapper
