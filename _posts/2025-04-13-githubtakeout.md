@@ -1,5 +1,5 @@
 ---
-title: githubtakeout - Export and Archive Git Repos from GitHub
+title: githubtakeout - Export and Archive GitHub Repos
 description: Data export tool for archiving Git repositories and gists
 date: 2025-04-13
 tags: [programming, python]
