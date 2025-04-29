@@ -40,7 +40,7 @@ pip install --upgrade build pip twine
 ```
 python -m build
 ```
-(this will build a Source Distribution (sdist) and Binary Distributioun (wheel) in the `dist` directory)
+(this will build a Source Distribution (sdist) and Binary Distribution (wheel) in the `dist` directory)
 - Generate an [API token][api-token] on PyPI (create an account first if needed)
 - Upload the new package to PyPI:
 ```
