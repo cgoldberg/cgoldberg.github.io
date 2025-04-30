@@ -4,7 +4,7 @@ theme: jekyll-theme-chirpy
 
 lang: en
 
-# › https://kevinnovak.github.io/Time-Zone-Picker
+# https://kevinnovak.github.io/Time-Zone-Picker
 timezone: America/New_York
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
@@ -18,8 +18,7 @@ tagline: Blog
 # used by seo meta and the atom feed
 description: Blog by Corey Goldberg
 
-# protocol & hostname for your site.
-# e.g: 'https://username.github.io', note that it does not end with a '/'.
+# protocol & hostname for your site (it does not end with a '/')
 url: https://cgoldberg.github.io
 
 author:
@@ -93,7 +92,7 @@ theme_mode: dark
 #cdn:
 
 # avatar on sidebar (supports local or CORS resources)
-avatar: /assets/img/python_code.jpg
+avatar: /assets/img/corey_goldberg.jpg
 
 # URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # it can be overridden by a customized `page.image` in front matter.
