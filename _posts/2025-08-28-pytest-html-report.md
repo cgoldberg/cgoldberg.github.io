@@ -79,10 +79,10 @@ named "Description", that contains the docstring from each test.
 I can execute the test and generate a report by running:
 
 ```
-pytest --html=report.html
+pytest --html=report.html --self-contained-html
 ```
 
-The output looks like this:
+The generated report (`report.html`) looks like this:
 
 ![pytest-html report screenshot](/assets/img/posts/2025-08-28-pytest-html.png){: w="600" }
 
