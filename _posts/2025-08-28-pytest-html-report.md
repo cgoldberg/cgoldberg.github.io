@@ -21,7 +21,7 @@ I came up with.
 
 Using the plugin is very simple. First install it along with pytest:
 
-```
+```shell
 pip install pytest pytest-html
 ```
 
@@ -71,6 +71,7 @@ def pytest_runtest_makereport(item, call):
     if item.function.__doc__:
         outcome._result.description = item.function.__doc__
 ```
+{: file='test_example.py'}
 
 This configuration adds a title, project version information in the
 "Environment" table, and an additional column in the report details
@@ -78,7 +79,7 @@ named "Description", that contains the docstring from each test.
 
 I can execute the test and generate a report by running:
 
-```
+```shell
 pytest --html=report.html --self-contained-html
 ```
 

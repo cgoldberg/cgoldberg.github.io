@@ -2,7 +2,7 @@
 title: Connecting to Android with SSH
 description: Running an SSH server with Termux
 date: 2025-08-17
-tags: [android]
+tags: [android, linux]
 ---
 
 [Secure Shell Protocol](https://en.wikipedia.org/wiki/Secure_Shell) (SSH) is a
@@ -31,14 +31,14 @@ prompt.
 
 You should start by updating the package list:
 
-```
-$ pkg update
+```shell
+pkg update
 ```
 
 Next, grant Termux storage permissions so it can access your filesystem:
 
-```
-$ termux-setup-storage
+```shell
+termux-setup-storage
 ```
 
 (you will get a popup asking you to allow access)
@@ -48,9 +48,9 @@ $ termux-setup-storage
 You will need to know your device's IP address and username to connect to it.
 The following commands will give you that information:
 
-```
-$ ifconfig
-$ whoami
+```shell
+ifconfig
+whoami
 ```
 
 (make sure you are connected to your network via WiFi so you are getting a
@@ -60,21 +60,21 @@ LAN IP)
 
 Next, install the OpenSSH server:
 
-```
-$ pkg install openssh
+```shell
+pkg install openssh
 ```
 
 If you don't want to mess with SSH keys, you can just set a password for
 connections:
 
-```
-$ passwd
+```shell
+passwd
 ```
 
 Now, you can run the SSH server:
 
-```
-$ sshd
+```shell
+sshd
 ```
 
 (it listens on port 8022 by default)
@@ -86,13 +86,13 @@ on your network running an SSH client.
 
 For example, on my Linux laptop, I can simply run:
 
-```
+```shell
 ssh <username>@<ip> -p <port>
 ```
 
 For example:
 
-```
+```shell
 ssh u0_a142@10.0.0.200 -p 8022
 ```
 

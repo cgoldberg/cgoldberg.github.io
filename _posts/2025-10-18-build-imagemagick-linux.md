@@ -17,7 +17,7 @@ to use it on a Raspberry Pi running on ARM64, that doesn't help. Raspberry Pi
 OS is based on Debian, so you can simply install ImageMagick from the official
 repos with:
 
-```
+```shell
 sudo apt install imagemagick
 ```
 
@@ -34,13 +34,13 @@ Linux distro)
 First, we need to install a C compiler toolchain, VCS, and some dependency
 libraries:
 
-```
+```shell
 sudo apt install build-essential git libjpeg-dev libpng-dev
 ```
 
 Next, we can download the source code:
 
-```
+```shell
 git clone https://github.com/ImageMagick/ImageMagick.git
 ```
 
@@ -50,14 +50,14 @@ want to build a specific version, you can checkout a different tag.
 
 Once we have the code, we can move to its directory and configure the build:
 
-```
+```shell
 cd ImageMagick
 ./configure
 ```
 
 Now, let's compile the executables:
 
-```
+```shell
 make
 ```
 
@@ -67,14 +67,14 @@ The binaries are now compiled and we can install them. This will move the files
 (executables and shared libraries) to the appropriate locations on your system
 and create the necessary links and cache:
 
-```
+```shell
 sudo make install
 sudo ldconfig /usr/local/lib
 ```
 
 That's it! The following command should now run succesfully:
 
-```
+```shell
 magick --version
 ```
 

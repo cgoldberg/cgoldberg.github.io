@@ -61,6 +61,7 @@ for entry in driver.get_log("performance"):
 ```
 
 The methods captured are:
+
 - `Network.dataReceived`
 - `Network.loadingFinished`
 - `Network.policyUpdated`
@@ -140,6 +141,7 @@ if __name__ == "__main__":
     for url in urls:
         print(f" - {url}")
 ```
+{: file='network_log.py'}
 
 When you run this script, the output looks like:
 
