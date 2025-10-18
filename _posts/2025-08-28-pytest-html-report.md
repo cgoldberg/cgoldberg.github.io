@@ -85,6 +85,6 @@ pytest --html=report.html --self-contained-html
 
 The generated report (`report.html`) looks like this:
 
-![pytest-html report screenshot](/assets/img/posts/2025-08-28_pytest-html.png){: w="600" }
+![pytest-html report screenshot](/assets/img/posts/2025-08-28_pytest-html.png){: w="680" }
 
 (tested using pytest 8.4.1 and pytest-html 4.1.1)
