@@ -41,12 +41,14 @@ sudo apt install build-essential git libjpeg-dev libpng-dev
 Next, we can download the source code:
 
 ```shell
-git clone https://github.com/ImageMagick/ImageMagick.git
+git clone --depth 1 https://github.com/ImageMagick/ImageMagick.git
 ```
 
 This will get the latest code from the official repository. We are going
 to build the `main` branch in its current state (under development). If you
-want to build a specific version, you can checkout a different tag.
+want to build a previously released version, you should do a full clone
+(remove `--depth 1`) and checkout a
+[specific tag](https://github.com/ImageMagick/ImageMagick/tags).
 
 Once we have the code, we can move to its directory and configure the build:
 
