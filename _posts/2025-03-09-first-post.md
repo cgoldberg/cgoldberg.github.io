@@ -6,7 +6,7 @@ tags: [blogging]
 ---
 
 
-```shell
+```python
 python3 -c "print('hello world')"
 ```
 {: file='hello.sh'}

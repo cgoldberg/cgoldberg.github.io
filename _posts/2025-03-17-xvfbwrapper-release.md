@@ -14,7 +14,7 @@ for Python 2.x.
 
 You can install or upgrade with:
 
-```shell
+```console
 pip install -U xvfbwrapper
 ```
 

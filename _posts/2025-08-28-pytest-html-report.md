@@ -21,7 +21,7 @@ I came up with.
 
 Using the plugin is very simple. First install it along with pytest:
 
-```shell
+```console
 pip install pytest pytest-html
 ```
 
@@ -79,7 +79,7 @@ named "Description", that contains the docstring from each test.
 
 I can execute the test and generate a report by running:
 
-```shell
+```console
 pytest --html=report.html --self-contained-html
 ```
 

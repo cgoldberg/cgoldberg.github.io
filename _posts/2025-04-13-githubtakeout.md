@@ -11,7 +11,7 @@ archives. It supports public/private repos and public/secret gists.
 
 Install from [PyPI][pypi]:
 
-```shell
+```console
 pip install githubtakeout
 ```
 

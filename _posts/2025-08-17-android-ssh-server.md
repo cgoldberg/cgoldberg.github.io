@@ -31,13 +31,13 @@ prompt.
 
 You should start by updating the package list:
 
-```shell
+```console
 pkg update
 ```
 
 Next, grant Termux storage permissions so it can access your filesystem:
 
-```shell
+```console
 termux-setup-storage
 ```
 
@@ -48,7 +48,7 @@ termux-setup-storage
 You will need to know your device's IP address and username to connect to it.
 The following commands will give you that information:
 
-```shell
+```console
 ifconfig
 whoami
 ```
@@ -60,20 +60,20 @@ LAN IP)
 
 Next, install the OpenSSH server:
 
-```shell
+```console
 pkg install openssh
 ```
 
 If you don't want to mess with SSH keys, you can just set a password for
 connections:
 
-```shell
+```console
 passwd
 ```
 
 Now, you can run the SSH server:
 
-```shell
+```console
 sshd
 ```
 
@@ -86,13 +86,13 @@ on your network running an SSH client.
 
 For example, on my Linux laptop, I can simply run:
 
-```shell
+```console
 ssh <username>@<ip> -p <port>
 ```
 
 For example:
 
-```shell
+```console
 ssh u0_a142@10.0.0.200 -p 8022
 ```
 

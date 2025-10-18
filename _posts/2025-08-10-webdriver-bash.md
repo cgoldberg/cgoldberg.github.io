@@ -56,7 +56,7 @@ command line. Normally, `chromedriver` picks a random port and listens for
 requests. To make things easier for this, you can specify a port when starting
 it:
 
-```shell
+```console
 ./chromedriver --port=9999
 ```
 
