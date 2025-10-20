@@ -24,7 +24,7 @@ normal use, there will be a lot of reads/writes to the card, so they might
 eventually wear out or get corrupted. Look for cards that are labeled
 "Industrial" or "Endurance" for the longest life-span.
 
-### Creating the Micro SD card disk image:
+### Creating the Micro SD card disk image
 
 1. Download the latest OS from:
     - https://www.raspberrypi.com/software/operating-systems
