@@ -41,7 +41,7 @@ From there, they are snaked along the outside walls to each unit:
 
 This one is my favorite. I guess the technician didn't see where the other
 cables originated and needed a way to connect a unit from inside the the
-utility room. He just drilled a hole through the door and ran a separate
+utility room. He just drilled a hole through the door frame and ran a separate
 cable up the wall to the 5th floor. He also didn't bother to fasten it to the
 wall, so it just flaps in the wind and gets snagged every time someone opens
 the door (thanks Xfinity!):
