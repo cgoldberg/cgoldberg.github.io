@@ -5,7 +5,7 @@ date: 2025-08-17
 tags: [android, linux]
 ---
 
-[Secure Shell Protocol](https://en.wikipedia.org/wiki/Secure_Shell) (SSH) is a
+[Secure Shell Protocol](https://wikipedia.org/wiki/Secure_Shell) (SSH) is a
 way to securely access a server for remote login or command execution. I
 recently wanted to use [rsync](https://rsync.samba.org) for copying data to my
 Android phone. Since Android is based on Linux, it's very easy to use standard
