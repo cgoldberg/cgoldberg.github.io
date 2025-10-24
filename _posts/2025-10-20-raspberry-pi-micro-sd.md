@@ -33,11 +33,11 @@ eventually wear out or get corrupted. Look for cards that are labeled
     - `unxz <filename>.xz`
 3. Insert the SD card or a USB adapter containing the SD card
 4. Run `df` to find the device name
-    - make sure to use device name, not partition (i.e. `/dev/sdc`, not `/dev/sdc1`)
+    - make sure to use device name, not partition (i.e. `/dev/sda`, not `/dev/sda1`)
 5. Write the image to the SD card
     - this will completely wipe the card (no need to format it beforehand)
     - `sudo dd if=/path/to/<IMAGE>.img of=/dev/<DEVICE> bs=4M status=progress`
-    - example: `sudo dd if=./2025-10-01-raspios-trixie-arm64-lite.img of=/dev/sdc bs=4M status=progress`
+    - example: `sudo dd if=./2025-10-01-raspios-trixie-arm64.img of=/dev/sdc bs=4M status=progress`
 6. Wait for the image to finish writing
     - it writes to disk asynchronously, so when the command returns, it is not finished writing
     - watch for the disk i/o to complete with: `iostat -p 1`
