@@ -7,10 +7,10 @@ tags: [linux, bash]
 
 I started using the command line over 30 years ago for navigating my operating system and basic scripting. My shell progression was:
 
-→ [MS-DOS](https://wikipedia.org/wiki/MS-DOS) - hobby prgramming
-→ [C shell](https://wikipedia.org/wiki/C_shell) on [BSD Unix](https://wikipedia.org/wiki/Berkeley_Software_Distribution) - university
-→ [Korn shell](https://wikipedia.org/wiki/KornShell) on [SunOS/Solaris](https://wikipedia.org/wiki/Solaris) - early career
-→ [Bash](https://wikipedia.org/wiki/Bash_(Unix_shell)) on [Linux](https://wikipedia.org/wiki/Linux) (and now Windows) - everything since
+1. [MS-DOS](https://wikipedia.org/wiki/MS-DOS) - hobby prgramming
+2. [C shell](https://wikipedia.org/wiki/C_shell) on [BSD Unix](https://wikipedia.org/wiki/Berkeley_Software_Distribution) - university
+3. [Korn shell](https://wikipedia.org/wiki/KornShell) on [SunOS/Solaris](https://wikipedia.org/wiki/Solaris) - early career
+4. [Bash](https://wikipedia.org/wiki/Bash_(Unix_shell)) on [Linux](https://wikipedia.org/wiki/Linux) (and now Windows) - everything since
 
 These days, I spend the majority of my time in the terminal. I use Bash shell inside [Alacritty](https://alacritty.org) or [GNOME Terminal](https://wikipedia.org/wiki/GNOME_Terminal) with a pretty [customized configuration](https://github.com/cgoldberg/dotfiles) (lots of aliases and functions).
 
