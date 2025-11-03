@@ -2,7 +2,7 @@
 title: Installing OpenJDK on Debian (Linux)
 description: How to install OpenJDK (Java) on Debian Stable (Linux)
 date: 2025-03-14
-tags: [programming, linux, java]
+tags: [programming, linux, debian, java]
 ---
 
 I am running Debian Stable (AKA Debian 12 Bookworm for AMD64 64-bit) as my
