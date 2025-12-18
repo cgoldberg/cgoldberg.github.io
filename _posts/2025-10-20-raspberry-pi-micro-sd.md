@@ -2,7 +2,7 @@
 title: Create a Micro SD Card With a Raspberry Pi OS Image
 description: Make a bootable card from the Linux comnmand line
 date: 2025-10-20
-tags: [linux, debian]
+tags: [linux, debian, raspberry-pi]
 ---
 
 ### Overview
