@@ -2,7 +2,7 @@
 title: Controlling Squeezbox From The Terminal
 description: Using the Lyrion Music  Server API from Bash with Curl
 date: 2025-12-18
-tags: [music, bash, raspberry-pi]
+tags: [music, bash]
 ---
 
 ![Squeezebox Touch](/assets/img/posts/2025-12-18_squeezebox_touch.jpg){: .right w="250"}
