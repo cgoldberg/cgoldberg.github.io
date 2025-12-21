@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 #
-# Check for changed posts
+# check for changed posts
 
-# Uncomment this to have the "Recently Updated" section in the
+# uncomment below to have the "Recently Updated" section in the
 # right panel sorted by date/time of the last edited post
 
 #Jekyll::Hooks.register :posts, :post_init do |post|

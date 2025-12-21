@@ -1,42 +1,29 @@
-#  The contact options.
+# contact options
 
 - type: github
-  icon: 'fab fa-github'
-  url: 'https://github.com/cgoldberg'
+  icon: "fab fa-github"
+  url: "https://github.com/cgoldberg"
 
 - type: linkedin
-  icon: 'fab fa-linkedin'
-  url: 'https://www.linkedin.com/in/cgoldberg'
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/cgoldberg"
 
 - type: stack-overflow
-  icon: 'fab fa-stack-overflow'
-  url: 'https://stackoverflow.com/users/16148/corey-goldberg'
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/16148/corey-goldberg"
 
 - type: reddit
-  icon: 'fa-brands fa-reddit'
-  url: 'https://www.reddit.com/user/cgoldberg/'
+  icon: "fa-brands fa-reddit"
+  url: "https://www.reddit.com/user/cgoldberg"
 
 - type: rss
-  icon: 'fas fa-rss'
+  icon: "fas fa-rss"
   noblank: true
 
-# Uncomment and complete the url below to enable more contact options
-#
-#- type: twitter
-#  icon: 'fa-brands fa-x-twitter'
-#
 #- type: email
-#  icon: 'fas fa-envelope'
+#  icon: "fas fa-envelope"
 #  noblank: true # open link in current tab
-#
-# - type: mastodon
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
-#
-# - type: bluesky
-#   icon: 'fa-brands fa-bluesky'
-#   url: ''                   # Fill with your Bluesky profile link
-#
-# - type: threads
-#   icon: 'fa-brands fa-threads'
-#   url: ''                   # Fill with your Threads profile link
+
+#- type: bluesky
+#  icon: "fa-brands fa-bluesky"
+#  url: ""
