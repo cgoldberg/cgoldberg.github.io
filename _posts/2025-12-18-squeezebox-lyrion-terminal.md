@@ -102,6 +102,7 @@ Now, I can just type a one-letter command:
 # - requires: curl, jq
 # =============================================================
 
+
 LMS_URL="http://10.0.0.100:9000"
 SQUEEZEBOX_MAC="00:04:20:23:82:6f"
 
@@ -127,36 +128,36 @@ send-squeezebox-cmd () {
 
 
 # show currently playing track on Squeezebox player
-squeeze-show () {
+squeezebox-show () {
     send-squeezebox-cmd '["status", "-", "1", "tags:a"]'
     if [ -n "${lms_result}" ]; then
         jq -r '.result.playlist_loop | .[0] | "\(.artist) - \(.title)"' \
             <<< "${lms_result}"
     fi
 }
-alias s=squeeze-show
+alias s=squeezebox-show
 
 
 # skip to next track in playlist on Squeezebox player
-squeeze-next () {
+squeezebox-next () {
     send-squeezebox-cmd '["button","jump_fwd"]'
-    squeeze-show
+    squeezebox-show
 }
-alias n=squeeze-next
+alias n=squeezebox-next
 
 
 # play random song mix on Squeezebox player
-squeeze-mix () {
+squeezebox-mix () {
     send-squeezebox-cmd '["randomplay","tracks"]'
-    squeeze-show
+    squeezebox-show
 }
-alias m="squeeze-mix"
+alias m="squeezebox-mix"
 
 
 # pause/resume audio on Squeezebox player
-squeeze-pause () {
+squeezebox-pause () {
     send-squeezebox-cmd '["pause"]'
 }
-alias p="squeeze-pause"
+alias p="squeezebox-pause"
 ```
 {: file='webdriver.sh'}
