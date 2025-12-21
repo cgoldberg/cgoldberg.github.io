@@ -78,8 +78,8 @@ IP address of my server is `10.0.0.100`, and the MAC address of my Squeezebox
 is `00:04:20:23:82:6f`. With this `curl` command, I can pause my player:
 
 ```shell
-curl -X POST \
-    -d '{"id":1,"method":"slim.request","params":["00:04:20:23:82:6f",["pause"]]}' \
+curl --request POST \
+    --data '{"id":1,"method":"slim.request","params":["00:04:20:23:82:6f",["pause"]]}' \
     http://10.0.0.100:9000/jsonrpc.js
 ```
 
@@ -104,16 +104,6 @@ Now, I can just type a one-letter command:
 
 LMS_URL="http://10.0.0.100:9000"
 SQUEEZEBOX_MAC="00:04:20:23:82:6f"
-TIMEOUT=0.5
-
-
-# check if we can reach LMS
-check-url () {
-    if ! curl -4 -sI -o /dev/null --max-time "${TIMEOUT}" "${LMS_URL}"; then
-        echo "can't reach LMS"
-        return 1
-    fi
-}
 
 
 # send request to Squeezebox player API on local nextwork
@@ -128,11 +118,10 @@ send-squeezebox-cmd () {
                 '"${command}"'
             ]
         }'
-    if check-url; then
-        lms_result=$(curl -4 -sS -X POST \
-            -d  "${payload}" "${LMS_URL}/jsonrpc.js")
-    else
-        lms_result=""
+    lms_result=$(curl -4 --fail --silent --request POST \
+        --max-time 1.0 --data "${payload}" "${LMS_URL}/jsonrpc.js")
+    if [ -z "${lms_result}" ]; then
+        err "can't reach LMS"
     fi
 }
 
