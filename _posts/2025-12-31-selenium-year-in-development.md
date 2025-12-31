@@ -12,8 +12,10 @@ Happy New Year everyone!
 I have been using [Selenium](https://selenium.dev) for browser automation
 since 2006. I made my first code contribution to the project in 2011 and
 became a maintainer in 2016. I took a break for quite a while, but stepped
-back into working on Selenium development with a vengance in 2025 (94 of my
-pull requests were merged this year).
+back into working on Selenium development with a vengance in 2025 (I had 94 of
+[my pull
+requests](https://github.com/search?q=org%3ASeleniumHQ+author%3Acgoldberg&type=pullrequests)
+were merged this year).
 
 We had active year in development: shipping 15 releases, adding new code and
 features, fixing bugs, improving testing and CI infrastructure, and generally
@@ -22,7 +24,8 @@ in an active community-driven open source project. Hopefully, we crush 2026 by
 shipping Selenium 5 with
 (BiDi)[https://www.selenium.dev/documentation/webdriver/bidi]!
 
-Here are some stats of development work for the year:
+Here are some stats of our
+[development work](https://github.com/SeleniumHQ/selenium) for the year:
 
 ```console
 GitHub repo: https://github.com/SeleniumHQ/selenium
