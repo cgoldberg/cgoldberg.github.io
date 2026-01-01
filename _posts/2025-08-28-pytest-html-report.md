@@ -2,7 +2,7 @@
 title: Python - Customize pytest HTML Reports
 description: Adding additional information to test reports with pytest-html
 date: 2025-08-28
-tags: [programmming, python, pytest, testing]
+tags: [programming, python, pytest, testing]
 ---
 
 [pytest](https://pytest.org) is the most commonly used test framework for

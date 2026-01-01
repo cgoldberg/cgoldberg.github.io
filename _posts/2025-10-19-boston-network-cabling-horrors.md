@@ -2,7 +2,7 @@
 title: Network Cabling Horrors
 description: Wiring old Boston brownstones for modern network access
 date: 2025-10-19
-tags: [boston, life]
+tags: [boston]
 ---
 
 I live in an old [brownstone](https://wikipedia.org/wiki/Brownstone)
