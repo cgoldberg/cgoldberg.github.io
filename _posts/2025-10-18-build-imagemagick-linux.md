@@ -80,4 +80,6 @@ That's it! The following command should now run succesfully:
 magick --version
 ```
 
-ImageMagick is now ready to use.
+ImageMagick is now ready to use!
+
+(Note: you can remove it with: `sudo make uninstall`)
