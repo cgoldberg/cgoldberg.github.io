@@ -28,10 +28,10 @@ These are the steps I follow to tag, build, and release:
 - Tag a new release and push it to GitHub:
 
 ```console
+git fetch --tags
 git tag <version number>
 git tag # to view tags
 git push origin --tags
-git fetch
 ```
 (setting a tag with a version number lets users know which commit coressponds
 with the release)
