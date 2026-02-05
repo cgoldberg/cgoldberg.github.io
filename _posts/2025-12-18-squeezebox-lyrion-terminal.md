@@ -89,14 +89,14 @@ To implement the commands I wanted, I created a file with some Bash functions
 and gave them really short aliases. I save this as `~/.bashrc_squeezebox` and
 in my `~/.bashrc`, I add `source ~/.bashrc_squeezebox`.
 
-Now, I can just type a one-letter command:
+Now, I can just type a one-letter command into my terminal:
+
 - `s <enter>` (show current playing track)
 - `m <enter>` (play a random shuffled mix)
 - `n <enter>` (skip to the next track)
 - `p <enter>` (pause/resume)
 
 ```bash
-# ~/.bashrc_squeezebox
 # =============================================================
 # Bash functions and aliases for controlling Squeezebox via LMS
 # - requires: curl, jq
