@@ -130,7 +130,7 @@ send-squeezebox-cmd () {
             --connect-timeout 3 \
             --max-time 7 \
             --data "${payload}" \
-            "${LMS_URL}/jsonrpc.js" \
+            "${LMS_URL}/jsonrpc.js"
     )"
     if [ -z "${lms_result}" ]; then
         echo "can't reach LMS or Squeezebox"
