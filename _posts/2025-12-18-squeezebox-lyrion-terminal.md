@@ -79,7 +79,7 @@ address of my Squeezebox is `00:04:20:23:82:6f`. With this `curl` command, I
 can send pause my player:
 
 ```shell
-curl --data '{"id": 1, "method": "slim.request", "params": ["00:04:20:23:82:6f", ["pause"]]}' \
+curl -d '{"method":"slim.request","params":["00:04:20:23:82:6f",["pause"]]}' \
     http://10.0.0.100:9000/jsonrpc.js
 ```
 
@@ -111,7 +111,6 @@ SQUEEZEBOX_MAC="00:04:20:23:82:6f"
 send-squeezebox-cmd () {
     local command="$1"
     local payload='{
-            "id": 1,
             "method": "slim.request",
             "params": [
                 "'"${SQUEEZEBOX_MAC}"'",
