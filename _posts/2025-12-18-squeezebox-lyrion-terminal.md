@@ -69,19 +69,17 @@ To contol the player, you need to know 2 things:
 - Squeezebox MAC address
 
 Then you can control the player by sending HTTP POST requests with a JSON
-payload to the `http://IP:PORT/jsonrpc.js` endpoint.
+payload to the `http://<IP>:<PORT>/jsonrpc.js` endpoint.
 
 #### Example
 
 My LMS server and Squeezebox player are both connected to my local network. The
 IP address of my server is `10.0.0.100` (default port `9000`), and the MAC
 address of my Squeezebox is `00:04:20:23:82:6f`. With this `curl` command, I
-can pause my player:
+can send pause my player:
 
 ```shell
-curl \
-    --request POST \
-    --data '{"id":1, "method": "slim.request", "params": ["00:04:20:23:82:6f", ["pause"]]}' \
+curl --data '{"id": 1, "method": "slim.request", "params": ["00:04:20:23:82:6f", ["pause"]]}' \
     http://10.0.0.100:9000/jsonrpc.js
 ```
 
@@ -125,7 +123,6 @@ send-squeezebox-cmd () {
             --fail \
             --ipv4 \
             --silent \
-            --request POST \
             --retry 0 \
             --connect-timeout 2 \
             --max-time 5 \
@@ -173,4 +170,4 @@ squeezebox-pause () {
 }
 alias p="squeezebox-pause"
 ```
-{: file='webdriver.sh'}
+{: file='.bashrc_squeezebox'}
