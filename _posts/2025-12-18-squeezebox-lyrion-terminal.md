@@ -99,7 +99,7 @@ Now, I can just type a one-letter command into my terminal:
 ```bash
 # =============================================================
 # Bash functions and aliases for controlling Squeezebox via LMS
-# - requires: curl, jq
+# - requires: curl, awk, jq
 # =============================================================
 
 
@@ -140,7 +140,8 @@ send-squeezebox-cmd () {
 squeezebox-show () {
     if send-squeezebox-cmd '["status", "-", 1, "tags:a"]'; then
         jq -r '.result.playlist_loop | .[0] | "\(.artist) - \(.title)"' \
-            <<< "${lms_result}"
+            <<< "${lms_result}" \
+            | awk '{print "\033[1m" $0 "\033[0m"}'
     fi
 }
 alias s=squeezebox-show
