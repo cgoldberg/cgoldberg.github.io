@@ -85,9 +85,9 @@ curl --data '{"id": 1, "method": "slim.request", "params": ["00:04:20:23:82:6f",
 
 #### Code
 
-To have the commands I wanted, I created a file with some Bash functions and
-gave them really short aliases. I save this as `~/.bashrc_squeezebox` and in my
-`~/.bashrc`, I add `source ~/.bashrc_squeezebox`.
+To implement the commands I wanted, I created a file with some Bash functions
+and gave them really short aliases. I save this as `~/.bashrc_squeezebox` and
+in my `~/.bashrc`, I add `source ~/.bashrc_squeezebox`.
 
 Now, I can just type a one-letter command:
 - `s <enter>` (show current playing track)
