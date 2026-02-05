@@ -111,7 +111,7 @@ LMS_URL="http://10.0.0.100:9000"
 SQUEEZEBOX_MAC="00:04:20:23:82:6f"
 
 
-# send request to Squeezebox player API on local nextwork
+# send request to LMS JSON-RPC API
 send-squeezebox-cmd () {
     local command="$1"
     local payload='{
