@@ -15,11 +15,15 @@ in a Linux terminal all day and just need a few commands to control my music
 without intalling the CLI or opening a web page. I just want the following
 one-letter shell commands:
 
-- `s` - show current playing track
-- `m` - play a random shuffled mix
-- `n` - skip to the next track
-- `p` - pause/resume
+- `s` - show current playing artist-title
+- `m` - play random shuffled mix
+- `n` - skip to next track
+- `p` - pause/play
 
+- `s <enter>` (show current playing track artist/title)
+- `m <enter>` (play random shuffled mix)
+- `n <enter>` (skip to next track)
+- `p <enter>` (pause/play)
 ###  What is a Squeezebox and what is Lyrion Music Server?
 
 Squeezebox is a network music player (streamer). It began its life as the
@@ -76,7 +80,7 @@ payload to the `http://<IP>:<PORT>/jsonrpc.js` endpoint.
 My LMS server and Squeezebox player are both connected to my local network. The
 IP address of my server is `10.0.0.100` (default port `9000`), and the MAC
 address of my Squeezebox is `00:04:20:23:82:6f`. With this `curl` command, I
-can send pause my player:
+can pause my player:
 
 ```shell
 curl -d '{"method":"slim.request","params":["00:04:20:23:82:6f",["pause"]]}' \
@@ -86,15 +90,15 @@ curl -d '{"method":"slim.request","params":["00:04:20:23:82:6f",["pause"]]}' \
 #### Code
 
 To implement the commands I wanted, I created a file with some Bash functions
-and gave them really short aliases. I save this as `~/.bashrc_squeezebox` and
-in my `~/.bashrc`, I add `source ~/.bashrc_squeezebox`.
+and gave them really short aliases. I saved this as `~/.bashrc_squeezebox` and
+in my `~/.bashrc`, I added: `source ~/.bashrc_squeezebox`.
 
 Now, I can just type a one-letter command into my terminal:
 
-- `s <enter>` (show current playing track)
-- `m <enter>` (play a random shuffled mix)
-- `n <enter>` (skip to the next track)
-- `p <enter>` (pause/resume)
+- `s <enter>` (show current playing artist-title)
+- `m <enter>` (play random shuffled mix)
+- `n <enter>` (skip to next track)
+- `p <enter>` (pause/play)
 
 ```bash
 # =============================================================
@@ -164,7 +168,7 @@ squeezebox-mix () {
 alias m="squeezebox-mix"
 
 
-# pause/resume audio on Squeezebox player
+# pause/play audio on Squeezebox player
 squeezebox-pause () {
     send-squeezebox-cmd '["pause"]'
 }
