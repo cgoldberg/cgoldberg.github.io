@@ -74,12 +74,14 @@ payload to the `http://IP:PORT/jsonrpc.js` endpoint.
 #### Example
 
 My LMS server and Squeezebox player are both connected to my local network. The
-IP address of my server is `10.0.0.100`, and the MAC address of my Squeezebox
-is `00:04:20:23:82:6f`. With this `curl` command, I can pause my player:
+IP address of my server is `10.0.0.100` (default port `9000`), and the MAC
+address of my Squeezebox is `00:04:20:23:82:6f`. With this `curl` command, I
+can pause my player:
 
 ```shell
-curl --request POST \
-    --data '{"id":1,"method":"slim.request","params":["00:04:20:23:82:6f",["pause"]]}' \
+curl \
+    --request POST \
+    --data '{"id":1, "method": "slim.request", "params": ["00:04:20:23:82:6f", ["pause"]]}' \
     http://10.0.0.100:9000/jsonrpc.js
 ```
 
@@ -110,27 +112,36 @@ SQUEEZEBOX_MAC="00:04:20:23:82:6f"
 # send request to Squeezebox player API on local nextwork
 send-squeezebox-cmd () {
     local command="$1"
-    local payload='
-        {
-            "id":1,
-            "method":"slim.request",
-            "params":[
+    local payload='{
+            "id": 1,
+            "method": "slim.request",
+            "params": [
                 "'"${SQUEEZEBOX_MAC}"'",
                 '"${command}"'
             ]
-        }'
-    lms_result=$(curl -4 --fail --silent --request POST \
-        --max-time 2.0 --data "${payload}" "${LMS_URL}/jsonrpc.js")
+    }'
+    lms_result="$(
+        curl \
+            --fail \
+            --ipv4 \
+            --silent \
+            --request POST \
+            --retry 0 \
+            --connect-timeout 2 \
+            --max-time 5 \
+            --data "${payload}" \
+            "${LMS_URL}/jsonrpc.js" \
+    )"
     if [ -z "${lms_result}" ]; then
         echo "can't reach LMS or Squeezebox"
+        return 1
     fi
 }
 
 
 # show currently playing track on Squeezebox player
 squeezebox-show () {
-    send-squeezebox-cmd '["status", "-", "1", "tags:a"]'
-    if [ -n "${lms_result}" ]; then
+    if send-squeezebox-cmd '["status", "-", 1, "tags:a"]'; then
         jq -r '.result.playlist_loop | .[0] | "\(.artist) - \(.title)"' \
             <<< "${lms_result}"
     fi
@@ -140,16 +151,18 @@ alias s=squeezebox-show
 
 # skip to next track in playlist on Squeezebox player
 squeezebox-next () {
-    send-squeezebox-cmd '["button","jump_fwd"]'
-    squeezebox-show
+    if send-squeezebox-cmd '["button", "jump_fwd"]'; then
+        squeezebox-show
+    fi
 }
 alias n=squeezebox-next
 
 
 # play random song mix on Squeezebox player
 squeezebox-mix () {
-    send-squeezebox-cmd '["randomplay","tracks"]'
-    squeezebox-show
+    if send-squeezebox-cmd '["randomplay", "tracks"]'; then
+        squeezebox-show
+    fi
 }
 alias m="squeezebox-mix"
 
