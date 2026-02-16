@@ -2,7 +2,7 @@
 title: 2025 - My Open Source Software Development Recap
 description: The year in FOSS contribution
 date: 2025-12-31
-tags: [programming, open source]
+tags: [programming, github, open source]
 ---
 
 It's New Years Eve...
