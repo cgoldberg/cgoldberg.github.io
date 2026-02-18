@@ -7,7 +7,7 @@ tags: [programming, selenium, testing, open source]
 
 Happy New Year everyone!
 
-![Seleium Logo](/assets/img/posts/2025-12-31_selenium_logo.png){: .right w="100"}
+![Selenium Logo](/assets/img/posts/2025-12-31_selenium_logo.png){: .right w="100"}
 
 I have been using [Selenium](https://selenium.dev) for browser automation
 since 2006. I made my first code contribution to the project in 2011 and
