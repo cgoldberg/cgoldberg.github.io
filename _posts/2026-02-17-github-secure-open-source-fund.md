@@ -1,5 +1,5 @@
 ---
-title: My Participation In GitHub Secure Open Source Fund
+title: My Participation in GitHub Secure Open Source Fund
 description: Securing the supply chain at scale
 date: 2026-02-17
 tags: [github, selenium, open source]

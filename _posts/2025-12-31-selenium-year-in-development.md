@@ -1,5 +1,5 @@
 ---
-title: Selenium - Year In Development (2025)
+title: Selenium - Development Recap (2025)
 description: '"the reports of our death are greatly exaggerated"'
 date: 2025-12-31
 tags: [programming, selenium, testing, open source]
