@@ -12,10 +12,6 @@
   icon: "fab fa-stack-overflow"
   url: "https://stackoverflow.com/users/16148/corey-goldberg"
 
-- type: reddit
-  icon: "fa-brands fa-reddit"
-  url: "https://www.reddit.com/user/cgoldberg"
-
 - type: rss
   icon: "fas fa-rss"
   noblank: true
@@ -26,4 +22,8 @@
 
 #- type: bluesky
 #  icon: "fa-brands fa-bluesky"
+#  url: ""
+
+#- type: reddit
+#  icon: "fa-brands fa-reddit"
 #  url: ""
