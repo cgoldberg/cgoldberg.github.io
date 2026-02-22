@@ -81,7 +81,7 @@ assets:
 paginate: 15
 
 # base URL of your site
-baseurl: ""
+baseurl: "https://cgoldberg.github.io/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
