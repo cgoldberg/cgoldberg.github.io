@@ -33,6 +33,7 @@ github:
 #  username: cgoldberg
 
 social:
+  # displayed as the default author of the posts and the copyright owner in the footer
   name: Corey Goldberg
   #email: example@domain.com
   links:
