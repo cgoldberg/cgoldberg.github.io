@@ -33,7 +33,7 @@ Except where otherwise noted:
 - Code examples in posts are licensed under the
   [MIT License](https://opensource.org/licenses/MIT)
 
-The source code and content for this blog is hosted on
+The source code and content for this website is hosted on
 [GitHub][github-blog-repo].
 
 
