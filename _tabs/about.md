@@ -38,7 +38,7 @@ You can connect with me on [LinkedIn][linkedin-profile] or follow my work on
 
 ## Copyright & Licensing
 
-© 2025-2026 Corey Goldberg.
+© 2025-2026 Corey Goldberg
 
 Except where otherwise noted:
 
