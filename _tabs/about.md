@@ -5,40 +5,57 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+----
+
+## About
+
 This is my personal blog.
 
-I'm a software test engineer and open source developer from Boston, MA (USA). I
-have over 25 years experience as a professional software engineer, and have
-been involved in open source software as a maintainer and developer for over 2
-decades. Most of my open source projects and contributions are related to
-Python, Linux, test automation, and development tooling.
+I'm a software test engineer and open source developer based in Boston,
+Massachusetts. With more than 25 years of professional experience in
+software engineering, I've spent over two decades actively contributing
+to and maintaining open source projects. My work primarily focuses on
+Python, Linux, test automation, and developer tooling.
 
-Currently, I am an active committer to the [Selenium project][selenium-home],
-and maintainer of the Selenium [Python client bindings][selenium-python-docs].
+I have contributed to many major open source projects and currently maintain
+several of my own. I’m also an active committer to the
+[Selenium project][selenium-home] and maintainer of its
+[Python client bindings][selenium-python-docs]. I regularly write code, review
+contributions, help triage and resolve issues, and mentor new contributors.
 
-You can connect with me on [LinkedIn][linkedin] or follow my work on
+My background includes a Bachelor's degree in Economics from the University of
+New Hampshire and a Master's degree in Computer Information Systems from Boston
+University.
+
+----
+
+## Contact
+
+You can connect with me on [LinkedIn][linkedin-profile] or follow my work on
 [GitHub][github-profile].
 
 ----
 
-### Copyright & Licensing
+## Copyright & Licensing
 
-© 2026 Corey Goldberg.
+© 2025-2026 Corey Goldberg.
 
 Except where otherwise noted:
 
-- Content on this site is licensed under the Creative Commons
-  Attribution 4.0 International
-  [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) License
+- Content on this site is licensed under the
+  [Creative Commons Attribution 4.0 International (CC BY 4.0) License][cc-license]
 - Code examples in posts are licensed under the
-  [MIT License](https://opensource.org/licenses/MIT)
+  [MIT License][mit-license]
 
 The source code and content for this website is hosted on
 [GitHub][github-blog-repo].
 
+----
 
 [github-profile]: https://github.com/cgoldberg
 [github-blog-repo]: https://github.com/cgoldberg/cgoldberg.github.io
-[linkedin]: https://www.linkedin.com/in/cgoldberg
+[linkedin-profile]: https://linkedin.com/in/cgoldberg
 [selenium-home]: https://selenium.dev
 [selenium-python-docs]: https://selenium.dev/selenium/docs/api/py
+[cc-license]: https://creativecommons.org/licenses/by/4.0
+[mit-license]: https://opensource.org/licenses/MIT

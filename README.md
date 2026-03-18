@@ -14,7 +14,7 @@ To setup a development environment and run locally:
 
 1. Clone this repository to your local machine
 2. Follow the [Jekyll installation guide][jekyll-install] to install Jekyll
-3. Run `bundle` in the root of the repository to install the dependencies
+3. Run `bundle install` in the root of the repository to install the dependencies
 4. Run `bundle exec jekyll s` in the root of the repository to start the Jekyll server
 
 The local server will be available at: http://127.0.0.1:4000
