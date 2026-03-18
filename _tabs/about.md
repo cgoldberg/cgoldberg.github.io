@@ -16,15 +16,15 @@ short tutorials. Some of my older posts are available [here][blogger-blog] and
 I'm a software test engineer and open source developer based in Boston,
 Massachusetts. With more than 25 years of professional experience in
 software engineering, I've built and tested systems across a diverse set
-of domains and technical environments. For over two decades, I’ve been an
-active contributor to and maintainer of open source projects. My work
-primarily focuses on Python, Linux, test automation, and developer tooling.
+of domains and technical environments. For over two decades, I've been an
+active contributor to open source software projects. My work primarily
+focuses on Python, Linux, test automation, and developer tooling.
 
 I have contributed to many major open source projects and currently maintain
-several of my own. I’m also an active committer to the
+several of my own. I'm also an active committer to the
 [Selenium project][selenium-home] and maintainer of its
 [Python client bindings][selenium-python-docs]. I regularly write code, review
-contributions, help triage and resolve issues, and mentor new contributors.
+contributions, triage and resolve issues, and mentor new contributors.
 
 My background includes a Bachelor's degree in Economics from the University of
 New Hampshire and a Master's degree in Computer Information Systems from Boston
