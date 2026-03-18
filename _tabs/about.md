@@ -13,9 +13,10 @@ This is my personal blog.
 
 I'm a software test engineer and open source developer based in Boston,
 Massachusetts. With more than 25 years of professional experience in
-software engineering, I've spent over two decades actively contributing
-to and maintaining open source projects. My work primarily focuses on
-Python, Linux, test automation, and developer tooling.
+software engineering, I've built and tested systems across a diverse set
+of domains and technical environments. For over two decades, I’ve been an
+active contributor to and maintainer of open source projects. My work
+primarily focuses on Python, Linux, test automation, and developer tooling.
 
 I have contributed to many major open source projects and currently maintain
 several of my own. I’m also an active committer to the
