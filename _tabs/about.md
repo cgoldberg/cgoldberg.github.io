@@ -9,7 +9,9 @@ order: 4
 
 ## About
 
-This is my personal blog.
+This is my [personal blog][blog-home], where I mess around with code and share
+short tutorials. Some of my older posts are available [here][blogger-blog] and
+[here][wayback-blog].
 
 I'm a software test engineer and open source developer based in Boston,
 Massachusetts. With more than 25 years of professional experience in
@@ -53,6 +55,9 @@ The source code and content for this website is hosted on
 
 ----
 
+[blog-home]: https://cgoldberg.github.io
+[blogger-blog]: https://coreygoldberg.blogspot.com
+[wayback-blog]: https://web.archive.org/web/20130609082454/http://www.goldb.org/goldblog
 [github-profile]: https://github.com/cgoldberg
 [github-blog-repo]: https://github.com/cgoldberg/cgoldberg.github.io
 [linkedin-profile]: https://linkedin.com/in/cgoldberg
