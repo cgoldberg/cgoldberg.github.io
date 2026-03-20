@@ -14,4 +14,4 @@ Instructions:
 
 That's it! The GitHub actions workflow job will publish it to GitGHub Pages.
 
-View the post at: https://cgoldberg.github.io
+View the post at: https://coreygoldberg.com

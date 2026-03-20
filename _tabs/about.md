@@ -55,7 +55,7 @@ The source code and content for this website is hosted on
 
 ----
 
-[blog-home]: https://cgoldberg.github.io
+[blog-home]: https://coreygoldberg.com
 [blogger-blog]: https://coreygoldberg.blogspot.com
 [wayback-blog]: https://web.archive.org/web/20130609082454/http://www.goldb.org/goldblog
 [github-profile]: https://github.com/cgoldberg

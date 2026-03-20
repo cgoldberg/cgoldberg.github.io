@@ -1,7 +1,7 @@
 # cgoldberg.github.io
 
 This repo contains the code for Corey Goldberg's personal blog website,
-located at: [https://cgoldberg.github.io][blog-home].
+located at: [https://coreygoldberg.com][blog-home].
 
 It's hosted on [GitHub Pages][gh-pages], made with
 [Jekyll][jekyll] static site generator, using the [Chirpy theme][chirpy-theme].
@@ -43,7 +43,7 @@ This work is published under the [MIT License][mit-license].
 
 ----
 
-[blog-home]: https://cgoldberg.github.io
+[blog-home]: https://coreygoldberg.com
 [chirpy-theme]: https://github.com/cotes2020/jekyll-theme-chirpy
 [chirpy-starter]: https://github.com/cotes2020/chirpy-starter
 [gh-actions]: https://github.com/features/actions
