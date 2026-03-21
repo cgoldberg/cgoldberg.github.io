@@ -24,6 +24,7 @@ one-letter shell commands:
 - `m <enter>` (play random shuffled mix)
 - `n <enter>` (skip to next track)
 - `p <enter>` (pause/play)
+
 ###  What is a Squeezebox and what is Lyrion Music Server?
 
 Squeezebox is a network music player (streamer). It began its life as the
