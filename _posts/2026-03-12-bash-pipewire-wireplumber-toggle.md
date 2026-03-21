@@ -22,13 +22,13 @@ between.
 
 To find them, run:
 
-```
+```console
 wpctl status
 ```
 
 Look for the `Sinks` section in the output. You should see a section like this:
 
-```
+```console
  ├─ Sinks:
  │      35. PCM2704C stereo audio DAC Digital Stereo (IEC958) [vol: 0.65]
  │  *   57. Radeon High Definition Audio Controller [Rembrandt/Strix] Digital Stereo (HDMI) [vol: 0.51]
