@@ -65,6 +65,9 @@ Done!
 
 Your package should now be available on PyPI.
 
+After publishing a new release, you should bump the version number in your repo to
+a development version to signify a new version is open for development.
+
 ----
 
 Note: You can automate this process to make publishing easier. There are workflows available
