@@ -1,9 +1,19 @@
 ---
-# the default layout is 'page'
-title: Corey Goldberg
 icon: fas fa-info-circle
 order: 4
 ---
+
+<!-- Inline CSS to hide the default heading on the About page so we can apply our own-->
+<style>
+  h1 {
+    display: none;
+  }
+  h1.custom-heading {
+    display: block;
+  }
+</style>
+
+<h1 class="custom-heading">Corey Goldberg</h1>
 
 ----
 
@@ -53,7 +63,6 @@ Except where otherwise noted:
 The source code and content for this website is hosted on
 [GitHub][github-blog-repo].
 
-----
 
 [blog-home]: https://coreygoldberg.com
 [blogger-blog]: https://coreygoldberg.blogspot.com

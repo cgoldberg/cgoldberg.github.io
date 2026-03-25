@@ -37,9 +37,7 @@ social:
   name: Corey Goldberg
   #email: example@domain.com
   links:
-    # first element serves as the copyright owner's link
     - https://github.com/cgoldberg
-    - https://www.linkedin.com/in/cgoldberg
 
 webmaster_verifications:
   google: U9-hCLAR44wY-5vEZSfl8iVgClFj5L0nuUgP8pdl2xo
@@ -78,6 +76,7 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]
 
+# number of posts per page
 paginate: 15
 
 # base URL of your site
