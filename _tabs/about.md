@@ -1,6 +1,9 @@
 ---
 icon: fas fa-info-circle
 order: 4
+permalink: /about/
+redirect_from:
+  - /about
 ---
 
 <!-- Inline CSS to hide the default heading on the About page so we can apply our own-->
