@@ -39,8 +39,8 @@ social:
   links:
     - https://github.com/cgoldberg
 
-webmaster_verifications:
-  google: U9-hCLAR44wY-5vEZSfl8iVgClFj5L0nuUgP8pdl2xo
+#webmaster_verifications:
+#  google:
 
 # end of `jekyll-seo-tag` settings
 
