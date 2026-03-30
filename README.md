@@ -26,7 +26,7 @@ To update/sync with the latest version:
 2. `git fetch template`
 3. `git merge template/main --allow-unrelated-histories`
 4. resolve all merge conflicts
-5. `git restore --staged assets/lib`
+5. `git submodule update --init --remote assets/lib`
 6. `git add .`
 7. check `git status` and remove unwanted new files
 7. `git commit -m "Sync with upstream template"`
