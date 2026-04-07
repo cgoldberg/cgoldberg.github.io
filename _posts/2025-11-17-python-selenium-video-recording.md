@@ -91,7 +91,7 @@ def record(request):
 Note: Windows doesn't have good signal handling like POSIX does, so terminating
 the ffmpeg process normally leaves you with a corrupt video file. To work
 around that, we have to create a process group and send `CTRL_BREAK` to get it
-to exist cleanly.
+to exit cleanly.
 
 Here is a test file has a fixture that launches a Chrome browser for each test.
 This `driver` fixture calls the `record` fixture. This file also has 2 example
