@@ -1,5 +1,5 @@
 ---
-title: GitHub Secure Open Source Fund - Session 2
+title: GitHub Secure Open Source Fund - Session 3
 description: Securing the supply chain at scale
 date: 2026-02-17
 tags: [github, selenium, open source]
@@ -8,7 +8,7 @@ tags: [github, selenium, open source]
 I participated in the latest session of
 [GitHub Secure Open Source Fund](https://github.com/open-source/github-secure-open-source-fund)
 as a maintainer for the [Selenium](https://selenium.dev) project along with
-maintainers from 70 other prominent open source projects.
+maintainers from 66 other prominent open source projects.
 
 It was 3 weeks of pretty intense practical training for securing open source
 projects and supply chains. I learned a lot and it was cool to collaborate with
@@ -19,7 +19,7 @@ Big thanks to the security team at [GitHub](https://github.com/) for providing
 this training (and donating $10k to our project!)
 
 More info:
-[Securing the supply chain at scale: Starting with 71 important open source projects](https://github.blog/open-source/maintainers/securing-the-supply-chain-at-scale-starting-with-71-important-open-source-projects/)
+[Securing the AI software supply chain: Security results across 67 open source projects](https://github.blog/open-source/maintainers/securing-the-ai-software-supply-chain-security-results-across-67-open-source-projects)
 
 You can follow my open source work at: [github.com/cgoldberg](https://github.com/cgoldberg)
 
