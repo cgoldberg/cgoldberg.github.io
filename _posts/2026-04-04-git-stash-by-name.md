@@ -1,5 +1,5 @@
 ---
-title: Git - Named stashes
+title: Git - Named Stashes
 description: Git aliases to save and pop stashes by name
 date: 2026-04-04
 tags: [git]
