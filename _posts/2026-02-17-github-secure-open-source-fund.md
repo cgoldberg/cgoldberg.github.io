@@ -1,11 +1,11 @@
 ---
-title: My Participation in GitHub Secure Open Source Fund
+title: GitHub Secure Open Source Fund - Session 2
 description: Securing the supply chain at scale
 date: 2026-02-17
 tags: [github, selenium, open source]
 ---
 
-I participated in the latest round of
+I participated in the latest session of
 [GitHub Secure Open Source Fund](https://github.com/open-source/github-secure-open-source-fund)
 as a maintainer for the [Selenium](https://selenium.dev) project along with
 maintainers from 70 other prominent open source projects.
