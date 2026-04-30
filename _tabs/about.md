@@ -52,6 +52,27 @@ You can connect with me on [LinkedIn][linkedin-profile] or follow my work on
 
 ----
 
+## Projects
+
+- [GitHub Repos](https://github.com/cgoldberg?tab=repositories)
+- [Python Packages](https://pypi.org/user/Corey.Goldberg)
+
+  | Package                                                             | Description                                                             |
+  |---------------------------------------------------------------------|-------------------------------------------------------------------------|
+  | [audio-metatag](https://pypi.org/project/audio-metatag)             | Clean metadata and tag audio files (MP3, FLAC, Ogg Vorbis)              |
+  | [audio-scan-info](https://pypi.org/project/audio-scan-info)         | Show metadata, tags, and stream information for audio files (MP3, FLAC) |
+  | [bump-dependencies](https://pypi.org/project/bump-dependencies)     | Bump Python package dependencies                                        |
+  | [concurrencytest](https://pypi.org/project/concurrencytest)         | Run unittest test suites concurrently                                   |
+  | [easymiv](https://pypi.org/project/easymiv)                         | Easy minimal image viewer (full-screen image slideshow)                 |
+  | [githubtakeout](https://pypi.org/project/githubtakeout)             | Backup and archive Git Repos and Gists from GitHub                      |
+  | [google-drive-export](https://pypi.org/project/google-drive-export) | Export and archive Google Drive files                                   |
+  | [sauceclient](https://pypi.org/project/sauceclient)                 | Python client library for Sauce Labs API                                |
+  | [selenium](https://pypi.org/project/selenium)                       | Official Python bindings for Selenium WebDriver                         |
+  | [talend-task](https://pypi.org/project/talend-task)                 | CLI for running ETL jobs (tasks) remotely via Talend Cloud API          |
+  | [xvfbwrapper](https://pypi.org/project/xvfbwrapper)                 | Manage headless displays with Xvfb (X virtual framebuffer)              |
+
+----
+
 ## Copyright & Licensing
 
 © 2025-2026 Corey Goldberg
