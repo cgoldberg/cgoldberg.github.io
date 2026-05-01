@@ -119,7 +119,7 @@ Here is an example Bash WebDriver client. It only implements a few functions:
 HOST='localhost'
 PORT='9999'
 
-send_command () {
+send_command() {
     local wd_url="$1"
     local method="$2"
     local data="$3"
@@ -143,25 +143,25 @@ send_command () {
       fi
 }
 
-launch_browser () {
+launch_browser() {
     local browser="$1"
     local wd_url="http://${HOST}:${PORT}/session"
     local data='{"capabilities": {"alwaysMatch": {"browserName": "'"${browser}"'"}}}'
     send_command "${wd_url}" 'POST' "${data}"
 }
 
-quit_browser () {
+quit_browser() {
     local wd_url="http://${HOST}:${PORT}/session/${SESSION_ID}"
     send_command "${wd_url}" 'DELETE' '{}'
 }
 
-goto () {
+goto() {
     local url="$1"
     local wd_url="http://${HOST}:${PORT}/session/${SESSION_ID}/url"
     send_command "${wd_url}" 'POST' '{"url": "'"${url}"'"}'
 }
 
-get_title () {
+get_title() {
     local wd_url="http://${HOST}:${PORT}/session/${SESSION_ID}/title"
     send_command "${wd_url}" 'GET' '{}'
 }

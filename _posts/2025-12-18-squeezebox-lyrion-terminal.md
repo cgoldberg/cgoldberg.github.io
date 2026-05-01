@@ -113,7 +113,7 @@ SQUEEZEBOX_MAC="00:04:20:23:82:6f"
 
 
 # send request to LMS JSON-RPC API
-send-squeezebox-cmd () {
+send-squeezebox-cmd() {
     local command="$1"
     local payload='{
             "method": "slim.request",
@@ -141,7 +141,7 @@ send-squeezebox-cmd () {
 
 
 # show currently playing track on Squeezebox player
-squeezebox-show () {
+squeezebox-show() {
     if send-squeezebox-cmd '["status", "-", 1, "tags:a"]'; then
         jq -r '.result.playlist_loop | .[0] | "\(.artist) - \(.title)"' \
             <<< "${lms_result}" \
@@ -152,7 +152,7 @@ alias s=squeezebox-show
 
 
 # skip to next track in playlist on Squeezebox player
-squeezebox-next () {
+squeezebox-next() {
     if send-squeezebox-cmd '["button", "jump_fwd"]'; then
         squeezebox-show
     fi
@@ -161,7 +161,7 @@ alias n=squeezebox-next
 
 
 # play random song mix on Squeezebox player
-squeezebox-mix () {
+squeezebox-mix() {
     if send-squeezebox-cmd '["randomplay", "tracks"]'; then
         squeezebox-show
     fi
@@ -170,7 +170,7 @@ alias m="squeezebox-mix"
 
 
 # pause/play audio on Squeezebox player
-squeezebox-pause () {
+squeezebox-pause() {
     send-squeezebox-cmd '["pause"]'
 }
 alias p="squeezebox-pause"
