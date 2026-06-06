@@ -68,7 +68,7 @@ You can connect with me on [LinkedIn][linkedin-profile] or follow my work on
   | [google-drive-export](https://pypi.org/project/google-drive-export) | Export and archive Google Drive files                                   |
   | [sauceclient](https://pypi.org/project/sauceclient)                 | Python client library for Sauce Labs API                                |
   | [selenium](https://pypi.org/project/selenium)                       | Official Python bindings for Selenium WebDriver                         |
-  | [talend-task](https://pypi.org/project/talend-task)                 | CLI for running ETL jobs (tasks) remotely via Talend Cloud API          |
+  | [talend-task](https://pypi.org/project/talend-task)                 | CLI for running Talend Cloud jobs                                       |
   | [xvfbwrapper](https://pypi.org/project/xvfbwrapper)                 | Manage headless displays with Xvfb (X virtual framebuffer)              |
 
 ----
