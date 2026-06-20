@@ -2,7 +2,7 @@
 title: githubtakeout - Export and Archive GitHub Repos
 description: Export tool for archiving Git repositories and gists
 date: 2025-04-13
-tags: [programming, python, git, github]
+tags: [programming, python, git, github, open source]
 ---
 
 I wrote a simple Python CLI for exporting Git repos from GitHub. It clones
