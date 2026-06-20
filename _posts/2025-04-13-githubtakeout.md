@@ -10,10 +10,10 @@ repos for a given account and compresses them as zip/tar.gz archives. It
 supports authentication, public/private repos, public/secret gists, and
 various filtering options.
 
-Available on [PyPI][pypi].
+Available on [PyPI][pypi-home].
 
 For more informationm, visit the GitHub project:
-[https://github.com/cgoldberg/githubtakeout][github]
+[https://github.com/cgoldberg/githubtakeout][github-repo]
 
 ## CLI Options:
 
@@ -45,5 +45,5 @@ options:
 
 ![githubtakeout screenshot](/assets/img/posts/2025-04-13_githubtakeout_screenshot.png)
 
-[pypi]: https://pypi.org/project/githubtakeout
-[github]:  https://github.com/cgoldberg/githubtakeout
+[pypi-home]: https://pypi.org/project/githubtakeout
+[github-repo]: https://github.com/cgoldberg/githubtakeout
