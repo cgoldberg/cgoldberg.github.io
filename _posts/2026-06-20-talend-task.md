@@ -101,15 +101,21 @@ talend_task --activity --job Job1
 
 #### Interactive Mode:
 
-![Screenshot](https://raw.githubusercontent.com/cgoldberg/talend-task/refs/heads/main/screenshots/screenshot-terminal-interactive-mode.png)
+<div style="text-align:left;">
+  <img src="https://raw.githubusercontent.com/cgoldberg/talend-task/refs/heads/main/screenshots/screenshot-terminal-interactive-mode.png" alt="Screenshot">
+</div>
 
 #### Direct Mode:
 
-![Screenshot](https://raw.githubusercontent.com/cgoldberg/talend-task/refs/heads/main/screenshots/screenshot-terminal-direct-mode.png)
+<div style="text-align:left;">
+  <img src="https://raw.githubusercontent.com/cgoldberg/talend-task/refs/heads/main/screenshots/screenshot-terminal-direct-mode.png" alt="Screenshot">
+</div>
 
 #### Activity Mode:
 
-![Screenshot](https://raw.githubusercontent.com/cgoldberg/talend-task/refs/heads/main/screenshots/screenshot-terminal-activity-mode.png)
+<div style="text-align:left;">
+  <img src="https://raw.githubusercontent.com/cgoldberg/talend-task/refs/heads/main/screenshots/screenshot-terminal-activity-mode.png" alt="Screenshot">
+</div>
 
 ----
 
