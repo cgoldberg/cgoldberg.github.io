@@ -15,7 +15,7 @@ remotely execute and monitor jobs from the command line, so I wrote
 - Releases: [PyPI][pypi-home]
 - Development: [GitHub Repo][github-repo]
 
-### About talend-task
+## About talend-task
 
 The `talend-task` package provides a command-line interface and Python API
 client for executing and monitoring jobs in [Talend Cloud][talend-cloud],
@@ -33,7 +33,7 @@ The package consists of:
 In this package, a “job” refers to a runnable Talend Task. Running a job creates
 a corresponding Talend Execution.
 
-### Installation
+## Installation
 
 Install the package from [PyPI][pypi-home]:
 
@@ -41,7 +41,7 @@ Install the package from [PyPI][pypi-home]:
 pip install talend-task
 ```
 
-### CLI
+## CLI
 
 `talend_task` is a CLI for running and monitoring jobs in
 [Talend Cloud][talend-cloud].
@@ -69,7 +69,7 @@ options:
 
 ----
 
-### Example CLI Usage
+## Example CLI Usage
 
 #### Direct Mode:
 
@@ -97,7 +97,7 @@ talend_task --activity --job Job1
 
 ----
 
-### CLI Screenshots
+## CLI Screenshots
 
 #### Interactive Mode:
 
@@ -119,13 +119,13 @@ talend_task --activity --job Job1
 
 ----
 
-### Python API Client
+## Python API Client
 
 Use the `TalendClient` class to interact with Talend Cloud from Python.
 
 See the [API documentation][api-docs] for details.
 
-### Example Client Usage
+#### Example Client Usage
 
 ```python
 from talend_task import TalendClient
