@@ -99,15 +99,15 @@ talend_task --activity --job Job1
 
 ### CLI Screenshots
 
-#### Interactive mode:
+#### Interactive Mode:
 
 ![Screenshot](https://raw.githubusercontent.com/cgoldberg/talend-task/refs/heads/main/screenshots/screenshot-terminal-interactive-mode.png)
 
-#### Direct mode:
+#### Direct Mode:
 
 ![Screenshot](https://raw.githubusercontent.com/cgoldberg/talend-task/refs/heads/main/screenshots/screenshot-terminal-direct-mode.png)
 
-#### Activity mode:
+#### Activity Mode:
 
 ![Screenshot](https://raw.githubusercontent.com/cgoldberg/talend-task/refs/heads/main/screenshots/screenshot-terminal-activity-mode.png)
 
