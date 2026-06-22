@@ -37,7 +37,7 @@ a corresponding Talend Execution.
 
 Install the package from [PyPI][pypi-home]:
 
-```bash
+```console
 pip install talend-task
 ```
 
@@ -50,7 +50,7 @@ After installation, the `talend_task` command is available in your shell.
 
 Select a job interactively or pass `--job` directly.
 
-```bash
+```text
 $ talend_task --help
 usage: talend_task [-h] [--debug] [--wait] [--activity] [--job NAME] [--timeout SECS]
                    [--poll-interval SECS]
@@ -75,7 +75,7 @@ options:
 
 Run a job by providing `--job <name>`:
 
-```bash
+```console
 talend_task --wait --job Job1
 ```
 
@@ -83,7 +83,7 @@ talend_task --wait --job Job1
 
 Run the CLI without specifying a job to select and execute one from a menu:
 
-```bash
+```console
 talend_task --wait
 ```
 
@@ -91,7 +91,7 @@ talend_task --wait
 
 Show recent runs for a job without executing it:
 
-```bash
+```console
 talend_task --activity --job Job1
 ```
 
