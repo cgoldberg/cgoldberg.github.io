@@ -16,4 +16,3 @@ programming in 2025:
 (that is addition to my full-time job writing more code!)
 
 ![2025 GitHub Contributions](/assets/img/posts/2025-12-31_git_wrapped_cgoldberg.png)
-
