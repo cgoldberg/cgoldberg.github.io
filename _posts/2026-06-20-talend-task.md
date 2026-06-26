@@ -50,7 +50,7 @@ After installation, the `talend_task` command is available in your shell.
 
 Select a job interactively or pass `--job` directly.
 
-```text
+```
 $ talend_task --help
 usage: talend_task [-h] [--debug] [--wait] [--activity] [--job NAME] [--timeout SECS]
                    [--poll-interval SECS]
