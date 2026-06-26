@@ -27,8 +27,8 @@ The package consists of:
 
 - command-line interface (`talend_task`)
 - Python API client module (`talend_task.talend_client`) providing the
-  `TalendClient` class
-  - [API documentation][api-docs]
+  `TalendClient` and `Credential` classes
+  - [module API documentation][api-docs]
 
 In this package, a "job" refers to a runnable Talend Task. Running a job creates
 a corresponding Talend Execution.
@@ -66,6 +66,22 @@ options:
   --timeout SECS        timeout (requires --wait, default: none)
   --poll-interval SECS  polling interval (requires --wait, default: 5)
 ```
+
+----
+
+## CLI Configuration
+
+The CLI requires authentication credentials and the URL of the Talend Cloud API
+endpoint for your region. These are configured using environment variables.
+
+Talend Cloud supports two authentication methods, depending on the account
+identity:
+
+- Personal Access Token (User Account)
+- OAuth 2.0 Client Credentials (Service Account)
+
+See the [CLI Configuration][github-readme-cli-config] section of the
+documentation for more information.
 
 ----
 
@@ -121,24 +137,48 @@ talend_task --activity --job Job1
 
 ## Python API Client
 
-Use the `TalendClient` class to interact with Talend Cloud from Python.
+Use the `TalendClient` and `Credential` classes to authenticate and interact
+with the [Talend Cloud][talend-cloud][Processing API][talend-processing-api]
+from Python.
 
-See the [API documentation][api-docs] for details.
+See the [module API documentation][api-docs] for more information.
 
-#### Example Client Usage
+### Example Client Usage
+
+Run a job using a Personal Aceess Token for authentication:
 
 ```python
-from talend_task import TalendClient
+from talend_task import StaticTokenCredential, TalendClient
 
 api_url = "https://api.us.cloud.talend.com"
-access_token = "SECRET"
+access_token = "token123"
 
-with TalendClient(api_url, access_token) as client:
+credential = StaticTokenCredential(access_token)
+
+with TalendClient(api_url, credential) as client:
     job_id = client.get_job_id("Job_123")
     status = client.run(job_id, wait=True)
 ```
 
+Run a job using OAuth 2.0 Client Credentials flow for authentication:
+
+```python
+from talend_task import OAuthClientCredential, TalendClient
+
+api_url = "https://api.us.cloud.talend.com"
+client_id = "id123"
+client_secret = "secret123"
+
+credential = OAuthClientCredential(client_id, client_secret)
+
+with TalendClient(api_url, credential) as client:
+    job_id = client.get_job_id("Job_123")
+    status = client.run(job_id, wait=True)
+```
+----
+
 [github-repo]: https://github.com/cgoldberg/talend-task
+[github-readme-cli-config]: https://github.com/cgoldberg/talend-task#cli-configuration
 [pypi-home]: https://pypi.org/project/talend-task
 [api-docs]: https://coreygoldberg.com/talend-task
 [qlik-home]: https://qlik.com
