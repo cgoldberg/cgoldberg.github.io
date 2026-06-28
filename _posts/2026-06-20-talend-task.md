@@ -25,8 +25,8 @@ their status.
 
 The package consists of:
 
-- command-line interface (`talend_task`)
-- Python API client module (`talend_task.talend_client`) providing the
+- **`talend_task`**: command-line interface (CLI)
+- **`talend_task.talend_client`**: Python API client module providing the
   `TalendClient` and `Credential` classes
   - [module API documentation][api-docs]
 
