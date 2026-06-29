@@ -1,6 +1,6 @@
 ---
-title: CLI and Python API for running Talend Cloud jobs
-description: Python package for Talend Cloud job execution and monitoring (talend-task)
+title: CLI and Python API for running Talend Cloud jobs (talend-task)
+description: Python package for Talend Cloud job execution and monitoring
 date: 2026-06-20
 tags: [programming, python, open source]
 ---
