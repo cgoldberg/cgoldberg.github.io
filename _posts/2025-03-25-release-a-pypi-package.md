@@ -27,7 +27,7 @@ These are the steps I follow to tag, build, and release:
 - Update the version number in your packaging configuration file
 - Tag a new release and push it to GitHub:
 
-```console
+```
 git fetch --tags
 git tag <version number>
 git tag # to view tags
@@ -38,14 +38,14 @@ with the release)
 
 - Create a new virtual environment and install the dependencies:
 
-```console
+```
 python3 -m venv
 source venv/bin/activate
 pip install --upgrade build pip twine
 ```
 - Build the package:
 
-```console
+```
 python -m build
 ```
 
@@ -54,7 +54,7 @@ python -m build
 - Generate an [API token][api-token] on PyPI (create an account first if needed)
 - Upload the new package to PyPI:
 
-```console
+```
 python -m twine check dist/*
 python -m twine upload --repository pypi dist/*
 ```
