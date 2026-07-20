@@ -68,7 +68,8 @@ def record(request):
                 f"-vcodec libx264 {video_name}"
             )
             proc = subprocess.Popen(
-                shlex.split(cmd), creationflags=subprocess.CREATE_NEW_PROCESS_GROUP
+                shlex.split(cmd),
+                creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
             )
         else:
             cmd = (
