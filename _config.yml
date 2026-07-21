@@ -24,7 +24,7 @@ url: https://coreygoldberg.com
 author:
   name: Corey Goldberg
   # sets the `author.url` property. helps Google to disambiguate the correct author of articles
-  url: https://github.com/cgoldberg
+  url: https://coreygoldberg.com
 
 github:
   username: cgoldberg
@@ -37,7 +37,7 @@ social:
   name: Corey Goldberg
   #email: example@domain.com
   links:
-    - https://github.com/cgoldberg
+    - https://coreygoldberg.com/about/
 
 #webmaster_verifications:
 #  google:
