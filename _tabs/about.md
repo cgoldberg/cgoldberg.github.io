@@ -54,8 +54,11 @@ You can connect with me on [LinkedIn][linkedin-profile] or follow my work on
 
 ## Projects
 
-- [GitHub Repos](https://github.com/cgoldberg?tab=repositories)
-- [Python Packages](https://pypi.org/user/Corey.Goldberg)
+Open source projects I work on:
+
+- [GitHub][github-profile]
+
+Python packages I actively maintain (published on [PyPI][pypi-home]):
 
   | Package                                                             | Description                                                             |
   |---------------------------------------------------------------------|-------------------------------------------------------------------------|
@@ -67,7 +70,6 @@ You can connect with me on [LinkedIn][linkedin-profile] or follow my work on
   | [githubtakeout](https://pypi.org/project/githubtakeout)             | Backup and archive Git Repos and Gists from GitHub                      |
   | [google-drive-export](https://pypi.org/project/google-drive-export) | Export and archive Google Drive files                                   |
   | [sauceclient](https://pypi.org/project/sauceclient)                 | Python client library for Sauce Labs API                                |
-  | [selenium](https://pypi.org/project/selenium)                       | Official Python bindings for Selenium WebDriver                         |
   | [talend-task](https://pypi.org/project/talend-task)                 | CLI and Python API for running Talend Cloud jobs                        |
   | [xvfbwrapper](https://pypi.org/project/xvfbwrapper)                 | Manage headless displays with Xvfb (X virtual framebuffer)              |
 
@@ -75,7 +77,7 @@ You can connect with me on [LinkedIn][linkedin-profile] or follow my work on
 
 ## Copyright & Licensing
 
-© 2025-2026 [Corey Goldberg][github-profile]
+© 2025-2026 [Corey Goldberg][about-author]
 
 Except where otherwise noted:
 
@@ -88,10 +90,12 @@ The source code and content for this website is hosted on [GitHub][github-blog-r
 
 
 [blog-home]: https://coreygoldberg.com
+[about-author]: https://coreygoldberg.com/about/
 [blogger-blog]: https://coreygoldberg.blogspot.com
 [wayback-blog]: https://web.archive.org/web/20130609082454/http://www.goldb.org/goldblog
 [github-profile]: https://github.com/cgoldberg
 [github-blog-repo]: https://github.com/cgoldberg/cgoldberg.github.io
+[pypi-home]: https://pypi.org/user/Corey.Goldberg
 [linkedin-profile]: https://linkedin.com/in/cgoldberg
 [selenium-home]: https://selenium.dev
 [selenium-python-docs]: https://selenium.dev/selenium/docs/api/py
