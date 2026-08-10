@@ -56,7 +56,7 @@ def pytest_html_report_title(report):
 
 
 def pytest_html_results_table_header(cells):
-    cells.insert(2, "<td><b>Description</b></td>")
+    cells.insert(2, "<th>Description</th>")
 
 
 def pytest_html_results_table_row(report, cells):
