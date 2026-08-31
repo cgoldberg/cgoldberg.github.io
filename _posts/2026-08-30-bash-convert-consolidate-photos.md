@@ -1,5 +1,5 @@
 ---
-title: Bash - Convert and consolidate photos
+title: Bash - Convert and Consolidate Photos
 description: Convert files to JPEG and consolidate them into one directory
 date: 2026-08-30
 tags: [bash, linux]
