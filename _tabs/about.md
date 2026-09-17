@@ -71,6 +71,7 @@ Python packages I actively maintain (published on [PyPI][pypi-home]):
   | [google-drive-export](https://pypi.org/project/google-drive-export) | Export and archive Google Drive files                                   |
   | [sauceclient](https://pypi.org/project/sauceclient)                 | Python client library for Sauce Labs API                                |
   | [talend-task](https://pypi.org/project/talend-task)                 | CLI and Python API for running Talend Cloud jobs                        |
+  | [treex-cli](https://pypi.org/project/treex-cli)                     | Print a directory tree with file metadata                               |
   | [xvfbwrapper](https://pypi.org/project/xvfbwrapper)                 | Manage headless displays with Xvfb (X virtual framebuffer)              |
 
 ----
