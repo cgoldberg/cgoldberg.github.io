@@ -2,22 +2,20 @@
 title: githubtakeout - Export and Archive GitHub Repos
 description: Export tool for archiving Git repositories and gists
 date: 2025-04-13
-tags: [programming, python, git, github, open source]
+tags: [programming, python, git, github, command line, open source]
 ---
 
-I wrote a simple Python CLI for exporting Git repos from GitHub. It clones
-repos for a given account and compresses them as zip/tar.gz archives. It
-supports authentication, public/private repos, public/secret gists, and
-various filtering options.
+I wrote a command-line utility in Python for exporting Git repos from
+GitHub. It clones repos for a given account and compresses them as
+zip/tar.gz archives. It supports authentication, public/private repos,
+public/secret gists, and various filtering options.
 
-Available on [PyPI][pypi-home].
+You can install `githubtakeout` from [PyPI][pypi-home], and follow development
+on [GitHub][github-repo] ([MIT licensed][mit-license]).
 
-For more informationm, visit the GitHub project:
-[https://github.com/cgoldberg/githubtakeout][github-repo]
+## Usage:
 
-## CLI Options:
-
-```console
+```
 $ githubtakeout --help
 usage: githubtakeout [-h] [--dir DIR] [--pattern PATTERN] [--skip_pattern PATTERN]
                      [--format {tar,zip,none}] [--gists] [--history]
@@ -47,3 +45,4 @@ options:
 
 [pypi-home]: https://pypi.org/project/githubtakeout
 [github-repo]: https://github.com/cgoldberg/githubtakeout
+[mit-license]: https://raw.githubusercontent.com/cgoldberg/githubtakeout/refs/heads/main/LICENSE

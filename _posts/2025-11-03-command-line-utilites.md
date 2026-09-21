@@ -2,7 +2,7 @@
 title: Command Line Utilities
 description: Making life in the terminal better
 date: 2025-11-03
-tags: [linux, bash]
+tags: [linux, bash, command line]
 ---
 
 I started using the command line over 30 years ago for navigating my operating system and basic scripting. My shell progression was:
