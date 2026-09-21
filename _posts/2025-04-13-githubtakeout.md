@@ -15,7 +15,7 @@ on [GitHub][github-repo] ([MIT licensed][mit-license]).
 
 ## Usage:
 
-```
+```console
 $ githubtakeout --help
 usage: githubtakeout [-h] [--dir DIR] [--pattern PATTERN] [--skip_pattern PATTERN]
                      [--format {tar,zip,none}] [--gists] [--history]
