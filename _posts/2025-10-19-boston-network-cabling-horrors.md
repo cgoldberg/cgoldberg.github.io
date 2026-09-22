@@ -26,10 +26,10 @@ building. This leads to some pretty hilarious cabling jobs when the network
 technicians from various cable and internet providers come by to hook something
 up.
 
-This next picture shows the the box where the different units are split from
-the the main lines. This picture was taken AFTER one technician reorganized the
-cables. Before that, there  was a large nest about 3 feet in diameter that
-included several garbage bags?:
+This next picture shows the box where the different units are split from the
+main lines. This picture was taken AFTER one technician reorganized the cables.
+Before that, there  was a large nest about 3 feet in diameter that included
+several garbage bags?:
 
 ![cable nest](/assets/img/posts/2025-10-19_network_horrors_1.jpg){: w="600" }
 
@@ -40,11 +40,11 @@ From there, they are snaked along the outside walls to each unit:
 (notice the brick facade covering the original brownstone)
 
 This one is my favorite. I guess the technician didn't see where the other
-cables originated and needed a way to connect a unit from inside the the
-utility room. He just drilled a hole through the door frame and ran a separate
-cable up the wall to the 5th floor. He also didn't bother to fasten it to the
-wall, so it just flaps in the wind and gets snagged every time someone opens
-the door (thanks Xfinity!):
+cables originated and needed a way to connect a unit from inside the utility
+room. He just drilled a hole through the door frame and ran a separate cable
+up the wall to the 5th floor. He also didn't bother to fasten it to the wall,
+so it just flaps in the wind and gets snagged every time someone opens the door
+(thanks Xfinity!):
 
 ![outdoor cables](/assets/img/posts/2025-10-19_network_horrors_3.jpg){: w="720" }
 
