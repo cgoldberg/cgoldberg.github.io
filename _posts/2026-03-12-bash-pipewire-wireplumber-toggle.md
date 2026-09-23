@@ -34,7 +34,7 @@ Look for the `Sinks` section in the output. You should see a section like this:
  │  *   57. Radeon High Definition Audio Controller [Rembrandt/Strix] Digital Stereo (HDMI) [vol: 0.51]
 ```
 
-In my case, the ID's are `35` and `37`. I set these as values for
+In my case, the ID's are `35` and `57`. I set these as values for
 `HEADPHONE_SINK` and `SPEAKER_SINK` in my script. The rest of the logic sets
 the default sink to whichever one is not currently in use and moves the
 currently playing stream to it:
