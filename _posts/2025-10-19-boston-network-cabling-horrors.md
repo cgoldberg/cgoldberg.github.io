@@ -17,7 +17,7 @@ condos and apartments (my building has 16 units).
 ![boston back bay brownstones](/assets/img/posts/2025-10-19_back_bay_brownstones.jpg){: w="800" }
 
 These are beatiful historic buildings, but they were built before the invention
-of the telephone... so obviusly there was no consideration for how to handle
+of the telephone, so obviusly there was no consideration for how to handle
 modern telco infrastructure. However, we still need our internet access! Unlike
 modern homes that hide network cables neatly inside their walls, we have
 nowhere to discretelly put them. The wires come in from under the street into
