@@ -90,10 +90,11 @@ accessed and URLs requested when loading the page at
 ```python
 #!/usr/bin/env python3
 #
+# Corey Goldberg 2025 (https://github.com/cgoldberg)
+
 # print a report of domains accessed and URLs requested during a
 # web page load in Chrome browser.
-#
-# author: Corey Goldberg - https://github.com/cgoldberg
+
 
 import json
 from urllib.parse import urlparse

@@ -42,6 +42,8 @@ currently playing stream to it:
 ```bash
 #!/usr/bin/env bash
 #
+# Corey Goldberg 2026 (https://github.com/cgoldberg)
+#
 # Toggle PipeWire audio output device/sink
 #
 # - uses WirePlumber to switch audio output between HDMI (headphones) and

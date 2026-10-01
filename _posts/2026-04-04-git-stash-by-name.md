@@ -5,7 +5,9 @@ date: 2026-04-04
 tags: [git]
 ---
 
-Here are some handy [Git](https://git-scm.com) [aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) I am using to save and pop stashes by name:
+Here are some handy [Git](https://git-scm.com)
+[aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) I am using to
+save and pop stashes by name:
 
 ```ini
 [alias]

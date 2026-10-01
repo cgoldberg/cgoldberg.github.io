@@ -104,7 +104,8 @@ Now, I can just type a one-letter command into my terminal:
 ```bash
 # =============================================================
 # Bash functions and aliases for controlling Squeezebox via LMS
-# - requires: curl, awk, jq
+# Corey Goldberg 2026 (https://github.com/cgoldberg)
+# requires: curl, awk, jq
 # =============================================================
 
 
