@@ -12,15 +12,20 @@ It's hosted on [GitHub Pages][gh-pages], made with
 
 To setup a development environment and run locally:
 
-1. Clone this repository to your local machine
-2. Follow the [Jekyll installation guide][jekyll-install] to install Jekyll
+1. Clone this repository
+2. Follow the [Jekyll installation guide][jekyll-install]
 3. Run `bundle install` in the root of the repository to install the dependencies
 4. Run `bundle exec jekyll s` in the root of the repository to start the Jekyll server
 
 The local server will be available at: http://127.0.0.1:4000
 
+
+
+## Update/sync with the latest upstream template:
+
 This repo was generated from the [Chirpy Starter template][chirpy-starter].
-To update/sync with the latest version:
+
+To update:
 
 1. `git remote add template git@github.com:cotes2020/chirpy-starter.git`
 2. `git fetch template`
