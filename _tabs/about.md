@@ -6,7 +6,7 @@ redirect_from:
   - /about
 ---
 
-<!-- Inline CSS to hide the default heading on the About page so we can apply our own-->
+<!-- Hide the default heading so we can apply our own-->
 <style>
   h1 {
     display: none;
@@ -47,32 +47,8 @@ University.
 
 ## Contact
 
-You can connect with me on [LinkedIn][linkedin-profile] or follow my work on
-[GitHub][github-profile].
-
-----
-
-## Projects
-
-Open source projects I work on:
-
-- [GitHub][github-profile]
-
-Python packages I actively maintain (published on [PyPI][pypi-home]):
-
-  | Package                                                             | Description                                                             |
-  |---------------------------------------------------------------------|-------------------------------------------------------------------------|
-  | [audio-metatag](https://pypi.org/project/audio-metatag)             | Clean metadata and tag audio files                                      |
-  | [audio-scan-info](https://pypi.org/project/audio-scan-info)         | Show metadata, tags, and stream information for audio files             |
-  | [bump-dependencies](https://pypi.org/project/bump-dependencies)     | Bump Python package dependencies                                        |
-  | [concurrencytest](https://pypi.org/project/concurrencytest)         | Run unittest test suites concurrently                                   |
-  | [easymiv](https://pypi.org/project/easymiv)                         | Easy minimal image viewer (full-screen image slideshow)                 |
-  | [githubtakeout](https://pypi.org/project/githubtakeout)             | Backup and archive Git Repos and Gists from GitHub                      |
-  | [google-drive-export](https://pypi.org/project/google-drive-export) | Export and archive Google Drive files                                   |
-  | [sauceclient](https://pypi.org/project/sauceclient)                 | Python client library for Sauce Labs API                                |
-  | [talend-task](https://pypi.org/project/talend-task)                 | CLI and Python API for running Talend Cloud jobs                        |
-  | [treex-cli](https://pypi.org/project/treex-cli)                     | List directory contents as a tree with file and directory metadata      |
-  | [xvfbwrapper](https://pypi.org/project/xvfbwrapper)                 | Manage headless displays with Xvfb (X virtual framebuffer)              |
+You can connect with me on [LinkedIn][linkedin-profile] or follow my open source
+work on [GitHub][github-profile].
 
 ----
 
