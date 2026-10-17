@@ -32,7 +32,7 @@ Python packages I actively maintain (published on [PyPI][pypi-home]):
   | [audio-scan-info](https://pypi.org/project/audio-scan-info)         | Show metadata, tags, and stream information for audio files             |
   | [bump-dependencies](https://pypi.org/project/bump-dependencies)     | Bump Python package dependencies                                        |
   | [concurrencytest](https://pypi.org/project/concurrencytest)         | Run unittest test suites concurrently                                   |
-  | [easymiv](https://pypi.org/project/easymiv)                         | Easy minimal image viewer (full-screen image slideshow)                 |
+  | [easymiv](https://pypi.org/project/easymiv)                         | Easy minimal image viewer (full-screen slideshow)                       |
   | [githubtakeout](https://pypi.org/project/githubtakeout)             | Backup and archive Git Repos and Gists from GitHub                      |
   | [google-drive-export](https://pypi.org/project/google-drive-export) | Export and archive Google Drive files                                   |
   | [sauceclient](https://pypi.org/project/sauceclient)                 | Python client library for Sauce Labs API                                |
