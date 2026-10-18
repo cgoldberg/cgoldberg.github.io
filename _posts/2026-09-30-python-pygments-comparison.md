@@ -17,7 +17,7 @@ available and compare them side-by-side in a browser.
 
 ### Generate the Pygments Style Gallery
 
-The Python script that generates the HTML gallery.
+Python script to generate the HTML gallery:
 
 ```python
 #!/usr/bin/env python3
