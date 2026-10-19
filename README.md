@@ -1,10 +1,10 @@
 # cgoldberg.github.io
 
-This repo contains the code for Corey Goldberg's personal blog website,
-located at: [https://coreygoldberg.com][blog-home].
+This repo contains the code for Corey Goldberg's personal blog website, located
+at: [https://coreygoldberg.com][blog-home].
 
-It's hosted on [GitHub Pages][gh-pages], made with
-[Jekyll][jekyll] static site generator, using the [Chirpy theme][chirpy-theme].
+It's hosted on [GitHub Pages][gh-pages], made with [Jekyll] static site
+generator, using the [Chirpy theme][chirpy-theme].
 
 ----
 
@@ -14,12 +14,12 @@ To setup a development environment and run locally:
 
 1. Clone this repository
 2. Follow the [Jekyll installation guide][jekyll-install]
-3. Run `bundle install` in the root of the repository to install the dependencies
-4. Run `bundle exec jekyll s` in the root of the repository to start the Jekyll server
+3. Run `bundle install` in the root of the repository to install the
+   dependencies
+4. Run `bundle exec jekyll s` in the root of the repository to start the Jekyll
+   server
 
 The local server will be available at: http://127.0.0.1:4000
-
-
 
 ## Update/sync with the latest upstream template:
 
@@ -34,23 +34,23 @@ To update:
 5. `git submodule update --init --remote assets/lib`
 6. `git add .`
 7. check `git status` and remove unwanted new files
-7. `git commit -m "Sync with upstream template"`
-8. `git push`
+8. `git commit -m "Sync with upstream template"`
+9. `git push`
 
 ## Deployment
 
-The website is generated and deployed with every push to the `main` branch
-of this repo using a [workflow][gh-workflow] on [GitHub Actions][gh-actions].
+The website is generated and deployed with every push to the `main` branch of
+this repo using a [workflow][gh-workflow] on [GitHub Actions][gh-actions].
 
 ## License
 
 This work is published under the [MIT License][mit-license].
 
-----
+______________________________________________________________________
 
 [blog-home]: https://coreygoldberg.com
-[chirpy-theme]: https://github.com/cotes2020/jekyll-theme-chirpy
 [chirpy-starter]: https://github.com/cotes2020/chirpy-starter
+[chirpy-theme]: https://github.com/cotes2020/jekyll-theme-chirpy
 [gh-actions]: https://github.com/features/actions
 [gh-pages]: https://pages.github.com
 [gh-workflow]: https://github.com/cgoldberg/cgoldberg.github.io/actions
