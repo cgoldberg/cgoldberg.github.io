@@ -1,14 +1,20 @@
 ---
 title: How to Publish a Python Package on PyPI
-description: Instructions for releasing a new Python Package on PyPI (Python Package Index)
+description: Manually releasing a new Python Package on PyPI (Python Package Index)
 date: 2025-03-25
 tags: [programming, python]
 ---
 
-This is basically for my own reference (because I always forget the steps), but
-here are instructions for packaging and publishing Python software on
-[PyPI][pypi] (Python Package Index). These instructions were created using
-Linux, but should generally be the same for any operating system.
+> **Note:** For new projects,
+[PyPI Trusted Publishing](https://docs.pypi.org/trusted-publishers/) is the
+recommended way to publish packages when supported by your CI provider. This
+guide covers manual publishing, which is still useful for understanding the
+publishing process and for situations where Trusted Publishing isn't an option.
+{: .prompt-info }
+
+This guide covers the steps for packaging and publishing Python software on
+[PyPI][pypi] (Python Package Index). The instructions were developed on Linux
+but should be broadly applicable to other operating systems.
 
 [Python Package Index][pypi] (PyPI) is a repository of software for the Python
 programming language. It contains over 600k Python packages. PyPI allows
@@ -22,7 +28,7 @@ packaging configuration file
 ([`pyproject.toml`][pyproject] or the older `setup.py`).
 
 
-These are the steps I follow to tag, build, and release:
+These are the steps to tag, build, and release:
 
 - Update the version number in your packaging configuration file
 - Tag a new release and push it to GitHub:
