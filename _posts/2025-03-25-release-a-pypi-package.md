@@ -13,8 +13,9 @@ isn't an option.
 {: .prompt-warning }
 
 This guide covers the steps for packaging and publishing Python software on
-[PyPI][pypi] (Python Package Index). The instructions were developed on Linux
-but should be broadly applicable to other operating systems.
+[PyPI][pypi] (Python Package Index) using the traditional Python toolchain.
+The instructions were developed on Linux but should be broadly applicable to
+other operating systems.
 
 [Python Package Index][pypi] (PyPI) is a repository of software for the Python
 programming language. It contains over 600k Python packages. PyPI allows
@@ -27,7 +28,6 @@ This guide assumes you have a project hosted in a public repository on
 packaging configuration file
 ([`pyproject.toml`][pyproject] or the older `setup.py`).
 
-
 These are the steps to tag, build, and release:
 
 - Update the version number in your packaging configuration file
@@ -35,12 +35,12 @@ These are the steps to tag, build, and release:
 
 ```
 git fetch --tags
-git tag <version number>
-git tag # to view tags
-git push origin --tags
+git tag  # view tags
+git tag <version>
+git push origin <version>
 ```
-(setting a tag with a version number lets users know which commit coressponds
-with the release)
+
+(the version tag identifies the commit associated with the release)
 
 - Create a new virtual environment and install the dependencies:
 
@@ -49,17 +49,24 @@ python3 -m venv
 source venv/bin/activate
 pip install --upgrade build pip twine
 ```
+
 - Build the package:
 
 ```
 python -m build
 ```
 
-(this will build a Source Distribution (sdist) and Binary Distribution (wheel) in
-the `dist` directory)
+(this will build a source distribution (sdist) and binary distribution (wheel)
+in the `dist` directory)
 
-- Generate an [API token][api-token] on PyPI (create an account first if needed)
-- Upload the new package to PyPI:
+- Validate the built distributions:
+
+```
+python -m twine check dist/*
+```
+
+- Generate an [API token][api-token]
+- Upload the new packages to PyPI:
 
 ```
 python -m twine check dist/*
@@ -68,14 +75,19 @@ python -m twine upload --repository pypi dist/*
 
 (enter the API token when prompted)
 
-Your package should now be available on PyPI.
+After upload completes, the new package will be available to install with
+`pip install <package>` (or `--upgrade`).
 
-After publishing a new release, you should bump the version number in your repo to
-a development version to signify a new version is open for development.
+The content of your `readme` from `pyproject.toml` will be viewable in a
+browser at: `https://pypi.org/project/<package>/<version>/`.
 
-> **Note**: There is tooling availble to automate building, packaging, and publishing.
-There are also reusable workflows available on most CI platforms that make publishing
-easier and more secure.
+After publishing a new release, you should bump the version number in your repo
+to a development version to signify a new version is open for development.
+
+> **Note**: Newer tools offer alternatives to the traditional Python toolchain,
+simplifying and automating the build, packaging, and publishing process.
+Reusable workflows are also available on most CI platforms to streamline
+publishing and improve security.
 {: .prompt-info }
 
 [installing]: https://packaging.python.org/en/latest/tutorials/installing-packages
