@@ -22,26 +22,35 @@ redirect_from:
 
 ## About
 
-This is my [personal blog][blog-home], where I mess around with code and share
-short tutorials. Some of my older posts are available [here][blogger-blog] and
-[here][wayback-blog].
+This is my [personal blog][blog-home], where I share code, short tutorials,
+and updates on software and tools I'm working on.
 
 I'm a software test engineer and open source developer based in Boston,
 Massachusetts. With more than 25 years of professional experience in
-software engineering, I've built and tested systems across a diverse set
-of domains and technical environments. For over two decades, I've been an
-active contributor to open source software projects. My work primarily
-focuses on Python, Linux, test automation, and developer tooling.
+software engineering, I have built and tested systems across a diverse set
+of domains and technical environments. For over two decades, I have been an
+active contributor to open source software projects. My current work
+focuses on Python, Linux, test automation, test framework development,
+CI/CD pipelines, and developer tooling.
 
 I have contributed to many major open source projects and currently maintain
 several of my own. I'm also an active committer to the
 [Selenium project][selenium-home] and maintainer of its
-[Python client bindings][selenium-python-docs]. I regularly write code, review
-contributions, triage and resolve issues, and mentor new contributors.
+[Python client bindings][selenium-python-docs]. I regularly write and
+review code, collaborate with contributors, manage issues and releases,
+build tools to support development workflows, and mentor new contributors.
 
-My background includes a Bachelor's degree in Economics from the University of
-New Hampshire and a Master's degree in Computer Information Systems from Boston
-University.
+I have a Bachelor's degree in Economics from the University of New Hampshire
+and a Master's degree in Computer Information Systems from Boston University.
+
+----
+
+## Older Posts
+
+Some older posts can be found on:
+
+- [Blogger][blogger-blog] (2008-2018)
+- [Wayback Machine][wayback-blog] (2006-2008)
 
 ----
 
@@ -69,7 +78,7 @@ The source code and content for this website is hosted on [GitHub][github-blog-r
 [blog-home]: https://coreygoldberg.com
 [about-author]: https://coreygoldberg.com/about/
 [blogger-blog]: https://coreygoldberg.blogspot.com
-[wayback-blog]: https://web.archive.org/web/20130609082454/http://www.goldb.org/goldblog
+[wayback-blog]: https://web.archive.org/web/20080609032746/http://www.goldb.org/goldblog/
 [github-profile]: https://github.com/cgoldberg
 [github-blog-repo]: https://github.com/cgoldberg/cgoldberg.github.io
 [pypi-home]: https://pypi.org/user/Corey.Goldberg
