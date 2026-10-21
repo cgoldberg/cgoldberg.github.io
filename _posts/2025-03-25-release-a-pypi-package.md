@@ -1,16 +1,16 @@
 ---
 title: How to Publish a Python Package on PyPI
-description: Manually releasing a new Python Package on PyPI (Python Package Index)
+description: Releasing a new Python Package on PyPI (Python Package Index)
 date: 2025-03-25
 tags: [programming, python]
 ---
 
-> **Note:** For new projects,
-[PyPI Trusted Publishing](https://docs.pypi.org/trusted-publishers/) is the
-recommended way to publish packages when supported by your CI provider. This
-guide covers manual publishing, which is still useful for understanding the
-publishing process and for situations where Trusted Publishing isn't an option.
-{: .prompt-info }
+> [PyPI Trusted Publishing](https://docs.pypi.org/trusted-publishers/)
+is the modern recommended way to publish packages when supported by your CI
+provider. This guide covers manual publishing, which is still useful for
+understanding the publishing process and for situations where Trusted Publishing
+isn't an option.
+{: .prompt-warning }
 
 This guide covers the steps for packaging and publishing Python software on
 [PyPI][pypi] (Python Package Index). The instructions were developed on Linux
@@ -55,7 +55,8 @@ pip install --upgrade build pip twine
 python -m build
 ```
 
-(this will build a Source Distribution (sdist) and Binary Distribution (wheel) in the `dist` directory)
+(this will build a Source Distribution (sdist) and Binary Distribution (wheel) in
+the `dist` directory)
 
 - Generate an [API token][api-token] on PyPI (create an account first if needed)
 - Upload the new package to PyPI:
@@ -67,17 +68,15 @@ python -m twine upload --repository pypi dist/*
 
 (enter the API token when prompted)
 
-Done!
-
 Your package should now be available on PyPI.
 
 After publishing a new release, you should bump the version number in your repo to
 a development version to signify a new version is open for development.
 
-----
-
-Note: You can automate this process to make publishing easier. There are workflows available
-on GitHub Actions or your CI tool of choice that will accomplish roughly the same thing.
+> **Note**: There is tooling availble to automate building, packaging, and publishing.
+There are also reusable workflows available on most CI platforms that make publishing
+easier and more secure.
+{: .prompt-info }
 
 [installing]: https://packaging.python.org/en/latest/tutorials/installing-packages
 [packaging]: https://packaging.python.org/en/latest/tutorials/packaging-projects
