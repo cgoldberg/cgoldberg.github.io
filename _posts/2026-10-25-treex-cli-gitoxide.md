@@ -47,7 +47,7 @@ architectures. To install from the [source distribution][pypi-files] or
 [source repository][github-repo], or on other platforms without a prebuilt
 package, you'll need a [Rust toolchain][rust-install].
 
-[announcement-post]: 2026-09-20-treex-cli.md
+[announcement-post]: /posts/treex-cli/
 [github-repo]: https://github.com/cgoldberg/treex
 [gitoxide-home]: https://rustutils.com/tools/gitoxide
 [pypi-home]: https://pypi.org/project/treex-cli
