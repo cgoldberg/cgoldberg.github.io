@@ -1,6 +1,6 @@
 ---
-title: Command Line Utilities
-description: Making life in the terminal better
+title: "Command Line Utilities"
+description: "Making life in the terminal better"
 date: 2025-11-03
 tags: [linux, bash, command line]
 ---

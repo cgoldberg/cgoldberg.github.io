@@ -1,6 +1,6 @@
 ---
-title: Building ImageMagick From Source
-description: Compiling ImageMagick source code on Linux
+title: "Building ImageMagick From Source"
+description: "Compiling ImageMagick source code on Linux"
 date: 2025-10-18
 tags: [linux, debian, raspberry-pi]
 ---

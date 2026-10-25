@@ -1,6 +1,6 @@
 ---
-title: How to Publish a Python Package on PyPI
-description: Releasing a new Python Package on PyPI (Python Package Index)
+title: "How to Publish a Python Package on PyPI"
+description: "Releasing a new Python Package on PyPI (Python Package Index)"
 date: 2025-03-25
 tags: [programming, python]
 ---

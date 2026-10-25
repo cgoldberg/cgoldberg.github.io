@@ -1,6 +1,6 @@
 ---
-title: Controlling Squeezebox From The Terminal
-description: Using the Lyrion Music  Server API from Bash with Curl
+title: "Controlling Squeezebox From The Terminal"
+description: "Using the Lyrion Music Server API from Bash with Curl"
 date: 2025-12-18
 tags: [music, bash]
 ---

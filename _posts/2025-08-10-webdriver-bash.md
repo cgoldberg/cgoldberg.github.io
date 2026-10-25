@@ -1,6 +1,6 @@
 ---
-title: Building a WebDriver Client in Bash
-description: Controlling a web browser with Bash and Curl
+title: "Building a WebDriver Client in Bash"
+description: "Controlling a web browser with Bash and Curl"
 date: 2025-08-10
 tags: [programming, selenium, webdriver, bash, chrome]
 ---

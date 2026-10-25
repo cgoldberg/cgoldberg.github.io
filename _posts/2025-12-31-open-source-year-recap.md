@@ -1,6 +1,6 @@
 ---
-title: 2025 - My Open Source Software Development Recap
-description: The year in FOSS contribution
+title: "2025: Open Source Software Development Recap"
+description: "My year in FOSS contributions"
 date: 2025-12-31
 tags: [programming, github, open source]
 ---

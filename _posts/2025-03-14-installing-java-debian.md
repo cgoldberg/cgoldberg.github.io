@@ -1,6 +1,6 @@
 ---
-title: Installing OpenJDK on Debian (Linux)
-description: How to install OpenJDK (Java) on Debian Stable (Linux)
+title: "Installing OpenJDK on Debian (Linux)"
+description: "How to install OpenJDK (Java) on Debian Stable (Linux)"
 date: 2025-03-14
 tags: [programming, linux, debian, java]
 ---

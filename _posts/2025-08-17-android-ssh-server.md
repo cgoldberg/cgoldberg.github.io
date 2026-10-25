@@ -1,6 +1,6 @@
 ---
-title: Connecting to Android with SSH
-description: Running an SSH server with Termux
+title: "Connecting to Android with SSH"
+description: "Running an SSH server with Termux"
 date: 2025-08-17
 tags: [android, linux]
 ---

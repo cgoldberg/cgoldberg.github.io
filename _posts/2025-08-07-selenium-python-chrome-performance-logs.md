@@ -1,6 +1,6 @@
 ---
-title: Chrome Performance Logs with Selenium and Python
-description: Analyzing browser performance logs
+title: "Chrome Performance Logs with Selenium and Python"
+description: "Analyzing browser performance logs"
 date: 2025-08-07
 tags: [chrome, programming, python, selenium, performance]
 ---

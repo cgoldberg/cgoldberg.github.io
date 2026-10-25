@@ -1,6 +1,6 @@
 ---
-title: Unicode Gotcha
-description: When identical looking strings aren't identical
+title: "Unicode Gotcha"
+description: "When identical looking strings aren't identical"
 date: 2026-09-22
 tags: [programming, python, testing]
 ---

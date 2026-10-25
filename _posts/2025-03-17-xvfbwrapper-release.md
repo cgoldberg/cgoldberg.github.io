@@ -1,6 +1,6 @@
 ---
-title: xvfbwrapper - New Release
-description: New xvfwrapper release published to PyPI (Python package)
+title: "xvfbwrapper: New Release"
+description: "New xvfwrapper release published to PyPI (Python package)"
 date: 2025-03-17
 tags: [programming, python]
 ---

@@ -1,6 +1,6 @@
 ---
-title: GitHub Secure Open Source Fund - Session 3
-description: Securing the supply chain at scale
+title: "GitHub Secure Open Source Fund - Session 3"
+description: "Securing the supply chain at scale"
 date: 2026-02-17
 tags: [github, selenium, open source]
 ---

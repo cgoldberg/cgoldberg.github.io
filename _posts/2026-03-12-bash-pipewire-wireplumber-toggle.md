@@ -1,6 +1,6 @@
 ---
-title: Linux - Toggle PipeWire Audio Output
-description: Switch between 2 audio devices with WirePlumber CLI
+title: "Linux: Toggle PipeWire Audio Output"
+description: "Switch between 2 audio devices with WirePlumber CLI"
 date: 2026-03-21
 tags: [bash, linux]
 ---

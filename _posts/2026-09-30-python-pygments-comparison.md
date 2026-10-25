@@ -1,6 +1,6 @@
 ---
-title: Comparing Pygments Syntax Highlighting Styles
-description: Python script to generate HTML previews of installed Pygments styles
+title: "Comparing Pygments Syntax Highlighting Styles"
+description: "Python script to generate HTML previews of installed Pygments styles"
 date: 2026-09-30
 tags: [programming, python]
 ---

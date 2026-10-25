@@ -1,6 +1,6 @@
 ---
-title: Network Cabling Horrors
-description: Wiring old Boston brownstones for modern network access
+title: "Network Cabling Horrors"
+description: "Wiring old Boston brownstones for modern network access"
 date: 2025-10-19
 tags: [boston]
 ---

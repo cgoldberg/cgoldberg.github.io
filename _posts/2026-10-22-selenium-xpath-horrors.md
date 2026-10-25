@@ -1,6 +1,6 @@
 ---
-title: When Reviewing Selenium Code
-description: Making the simple unnecessarily complicated
+title: "When Reviewing Selenium Code"
+description: "Making the simple unnecessarily complicated"
 date: 2026-10-22
 tags: [programming, selenium, python]
 ---

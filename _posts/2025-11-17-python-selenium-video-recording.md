@@ -1,6 +1,6 @@
 ---
-title: Python - Video Recording Selenium Web UI Tests
-description: Capturing a video recording of Selenium tests with pytest and ffmpeg
+title: "Python: Video Recording Selenium Web UI Tests"
+description: "Capturing a video recording of Selenium tests with pytest and ffmpeg"
 date: 2025-11-17
 tags: [programming, selenium, python, pytest, testing, chrome]
 ---

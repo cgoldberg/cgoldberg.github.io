@@ -1,6 +1,6 @@
 ---
-title: Python - Customize pytest HTML Reports
-description: Adding additional information to test reports with pytest-html
+title: "Python: Customize pytest HTML Reports"
+description: "Adding additional information to test reports with pytest-html"
 date: 2025-08-28
 tags: [programming, python, pytest, testing]
 ---
