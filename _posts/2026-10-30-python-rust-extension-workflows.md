@@ -170,7 +170,7 @@ strategy:
 
 ## Conclusion
 
-Integrating Gitoxide made treex faster and removed its dependency on an external
+Integrating Gitoxide made `treex` faster and removed its dependency on an external
 Git installation. The project also gave me an opportunity to learn about Rust
 extensions for Python and put together a modern development workflow covering
 packaging, testing, cross-platform builds, and automated PyPI releases.
