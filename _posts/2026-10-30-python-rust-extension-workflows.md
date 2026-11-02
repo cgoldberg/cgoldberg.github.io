@@ -31,9 +31,9 @@ output.
 
 Install `treex` using your preferred Python package manager:
 
-- **[pip](https://pip.pypa.io):** `pip install treex-cli`
-- **[pipx](https://pipx.pypa.io):** `pipx install treex-cli`
-- **[uv](https://docs.astral.sh/uv/):** `uv tool install treex-cli`
+- **[pip][pypa-pip]:** `pip install treex-cli`
+- **[pipx][pypa-pipx]:** `pipx install treex-cli`
+- **[uv][uv-home]:** `uv tool install treex-cli`
 
 After installation, the `treex` command is available on your `PATH`.
 
@@ -200,10 +200,6 @@ Integrating Gitoxide made `treex` faster and removed its dependency on an
 external Git installation. The project also gave me an opportunity to learn
 about Rust extensions for Python and put together a modern development workflow
 covering packaging, testing, cross-platform builds, and automated PyPI releases.
-
-- **[pip][pypa-pip]:** `pip install treex-cli`
-- **[pipx][pypa-pipx]:** `pipx install treex-cli`
-- **[uv][uv-home]:** `uv tool install treex-cli`
 
 [cibuildwheel-home]: https://cibuildwheel.pypa.io
 [github-actions-home]: https://github.com/features/actions
