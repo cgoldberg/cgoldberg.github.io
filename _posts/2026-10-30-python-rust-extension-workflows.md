@@ -1,7 +1,6 @@
 ---
 title: "Building a Modern Python Development Workflow"
-description: "Python packaging, testing, cross-platform builds, and CI/CD with GitHub Actions"
-description: "Tooling for Python packaging, testing, cross-platform builds, and automated releases"
+description: "Python packaging, testing, cross-platform builds, and CI/CD"
 date: 2026-10-30
 tags: [programming, python, rust, git, github, testing, treex]
 ---
