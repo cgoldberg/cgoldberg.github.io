@@ -1,5 +1,6 @@
 ---
 title: "Building a Modern Python Development Workflow"
+description: "Python packaging, testing, cross-platform builds, and CI/CD with GitHub Actions"
 description: "Tooling for Python packaging, testing, cross-platform builds, and automated releases"
 date: 2026-10-30
 tags: [programming, python, rust, git, github, testing, treex]
@@ -13,8 +14,10 @@ tags: [programming, python, rust, git, github, testing, treex]
 
 ## The project
 
-I wrote a command-line utility that turned into an interesting learning
-experience in Python packaging, tooling, and Rust integration.
+I wrote a small Python command-line utility called `treex`, which provided an
+opportunity to explore modern Python packaging, development tooling, and Rust
+integration. Rather than focusing on the utility itself, this post covers the
+tooling and workflows I put together to develop, test, build, and distribute it.
 
 `treex` is a Git-aware directory tree utility. I wanted a cross-platform
 alternative to `tree` that displays useful metadata and respects Git's ignore
@@ -29,9 +32,11 @@ output.
 
 Install `treex` using your preferred Python package manager:
 
-- **pip:** `pip install treex-cli`
-- **pipx:** `pipx install treex-cli`
-- **uv:** `uv tool install treex-cli`
+- **[pip](https://pip.pypa.io):** `pip install treex-cli`
+- **[pipx](https://pipx.pypa.io):** `pipx install treex-cli`
+- **[uv](https://docs.astral.sh/uv/):** `uv tool install treex-cli`
+
+After installation, the `treex` command is available on your `PATH`.
 
 ## Rust extension for Python
 
@@ -67,9 +72,9 @@ I decided to support Python `3.13+` on the following platforms:
 
 ## Development tooling
 
-The development workflow uses [tox][tox-home] to run linting,
-validation, testing, and builds. [tox-uv][tox-uv-home] integrates [uv][uv-home]
-for fast dependency installation and environment management.
+The development workflow uses [tox][tox-home] to run linting, validation,
+testing, and builds. [tox-uv][tox-uv-home] integrates [uv][uv-home] for fast
+dependency installation and environment management.
 
 Project metadata, build settings, and tool configuration are all in
 `pyproject.toml`. The build system uses `setuptools` and `setuptools-rust` to
@@ -99,14 +104,15 @@ validate = ["validate-pyproject[all]==0.27"]
 
 Python dependencies are pinned in `uv.lock`, and Rust dependencies in
 `Cargo.lock`. Python linting and formatting use [`ruff`][ruff-home]. Rust code
-is checked with `cargo fmt` and `cargo clippy`. Tests use [`pytest`][pytest-home]
-and run across multiple Python versions (`3.13`–`3.15`). A validation environment
-checks compilation, lockfiles, project metadata, imports, and the CLI.
+is checked with `cargo fmt` and `cargo clippy`. Tests use
+[`pytest`][pytest-home] and run across multiple Python versions (`3.13`–`3.15`).
+A validation environment checks compilation, lockfiles, project metadata,
+imports, and the CLI.
 
 Additional `tox` environments build source distributions and wheels, validate
 distributions, and build platform-specific wheel variants with `cibuildwheel`.
 
-### Development and CI requirements
+### Development and build requirements
 
 - Python `3.13` (`3.14`–`3.15` for the full test matrix)
 - `tox`
@@ -131,11 +137,32 @@ locally and in CI.
 | `check-dist`    | Validate built distributions                          |
 | `wheel-dist`    | Build and test platform-specific wheel variants       |
 
-## CI and release automation
+Any environment can be provisioned and run with a single command:
+`tox -e <env>`.
 
-For CI, I use [GitHub Actions][github-actions-home] with
-[`test`/`build`/`release` workflows][github-workflows] that run the same
-`tox` environments used in local development.
+## Local development
+
+My tox configuration defines the default `env_list`:
+
+```toml
+env_list =
+    lint
+    validate
+    py313
+    py315
+```
+
+Running `tox` without specifying an environment executes all environments in
+this list. On a warm system, with environments already provisioned and the Rust
+extension compiled and cached, the entire suite (Python and Rust linting and
+validation, plus 100+ tests across two Python versions) takes approximately 3
+seconds.
+
+## CI/CD
+
+I use [GitHub Actions][github-actions-home] with
+[test/build/release workflows][github-workflows] that run the same tox
+environments used in local development.
 
 ### Test workflow
 
@@ -170,10 +197,14 @@ strategy:
 
 ## Conclusion
 
-Integrating Gitoxide made `treex` faster and removed its dependency on an external
-Git installation. The project also gave me an opportunity to learn about Rust
-extensions for Python and put together a modern development workflow covering
-packaging, testing, cross-platform builds, and automated PyPI releases.
+Integrating Gitoxide made `treex` faster and removed its dependency on an
+external Git installation. The project also gave me an opportunity to learn
+about Rust extensions for Python and put together a modern development workflow
+covering packaging, testing, cross-platform builds, and automated PyPI releases.
+
+- **[pip][pypa-pip]:** `pip install treex-cli`
+- **[pipx][pypa-pipx]:** `pipx install treex-cli`
+- **[uv][uv-home]:** `uv tool install treex-cli`
 
 [cibuildwheel-home]: https://cibuildwheel.pypa.io
 [github-actions-home]: https://github.com/features/actions
@@ -182,8 +213,10 @@ packaging, testing, cross-platform builds, and automated PyPI releases.
 [github-workflows]: https://github.com/cgoldberg/treex/actions
 [gitoxide-home]: https://rustutils.com/tools/gitoxide
 [pyo3-home]: https://pyo3.rs
+[pypa-pip]: https://pip.pypa.io
+[pypa-pipx]: https://pipx.pypa.io
 [pypi-home]: https://pypi.org/project/treex-cli
-[pytest-home]: https://pytest.org/
+[pytest-home]: https://pytest.org
 [ruff-home]: https://docs.astral.sh/ruff
 [rust-install]: https://www.rust-lang.org/tools/install
 [setuptools-rust]: https://github.com/PyO3/setuptools-rust
