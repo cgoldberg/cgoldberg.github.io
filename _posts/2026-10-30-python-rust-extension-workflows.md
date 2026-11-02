@@ -143,7 +143,7 @@ Any environment can be provisioned and run with a single command:
 
 My tox configuration defines the default `env_list`:
 
-```toml
+```ini
 env_list =
     lint
     validate
