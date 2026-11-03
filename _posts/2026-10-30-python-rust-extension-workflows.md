@@ -154,8 +154,16 @@ env_list =
 Running `tox` without specifying an environment executes all environments in
 this list. On a warm system, with environments already provisioned and the Rust
 extension compiled and cached, the entire suite (Python and Rust linting and
-validation, plus 100+ tests across two Python versions) takes approximately 3
+validation, plus 100+ tests across two Python versions) takes only a few
 seconds.
+
+<div style="text-align:left;">
+  <img
+    src="/assets/img/posts/2026-10-30-treex-tox-uv.gif"
+    alt="tox video"
+    width="600"
+  >
+</div>
 
 ## CI/CD
 
