@@ -69,7 +69,6 @@ python -m twine check dist/*
 - Upload the new packages to PyPI:
 
 ```
-python -m twine check dist/*
 python -m twine upload --repository pypi dist/*
 ```
 
