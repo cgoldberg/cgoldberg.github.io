@@ -42,10 +42,10 @@ a subprocess. This makes scanning deeply nested Git repositories much faster and
 allows `treex` to process ignore rules even when Git isn't installed.
 
 You can install `treex` from [PyPI][pypi-home]. Prebuilt installation packages
-are available for Python `3.13+` on Linux, macOS, and Windows, covering common
-architectures. To install from the [source distribution][pypi-files] or
+(wheels) are available for Python `3.13+` on Linux, macOS, and Windows,
+covering common architectures. To install from the source distribution or
 [source repository][github-repo], or on other platforms without a prebuilt
-package, you'll need a [Rust toolchain][rust-install].
+binary, you'll need a [Rust toolchain][rust-install].
 
 [announcement-post]: /posts/treex-cli/
 [github-repo]: https://github.com/cgoldberg/treex
