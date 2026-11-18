@@ -49,8 +49,8 @@ currently playing stream to it:
 # - uses WirePlumber to switch audio output between HDMI (headphones) and
 #   USB DAC (speakers)
 
-HEADPHONE_SINK=35 # HDMI
-SPEAKER_SINK=57 # USB DAC
+SPEAKER_SINK=35 # USB DAC
+HEADPHONE_SINK=57 # HDMI
 
 current_sink=$(wpctl status | awk '
     /\*/ {
